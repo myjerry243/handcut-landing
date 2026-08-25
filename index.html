@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Handcut Mosaic Art Murals | FengFu Mosaic — Handcrafted Feature Walls</title>
+<meta name="description" content="Bespoke handcut mosaic murals and feature walls from Foshan factory. Every tessera hand-cut and placed by master craftsmen — your photo, painting or logo turned into wall art.">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Handcut Mosaic Art Murals | FengFu Mosaic">
+<meta property="og:description" content="Bespoke handcut mosaic murals and feature walls — every tessera hand-cut and placed by master craftsmen.">
+<meta property="og:image" content="images/hero.jpg">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230d1b2a'/%3E%3Cpath d='M4 4h8v8H4zM12 4h8v8h-8zM20 4h8v8h-8zM4 12h8v8H4zM12 12h8v8h-8zM20 12h8v8h-8zM4 20h8v8H4zM12 20h8v8h-8zM20 20h8v8h-8z' fill='%23c9a227'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0b1f3a; --navy-2:#0e2a4f; --navy-3:#12345f;
+  --gold:#c9a227; --gold-2:#e3c568;
+  --aqua:#3ec6d8; --sky:#7fd8e8;
+  --ink:#1a2332; --muted:#5c6b7e; --line:#e3e9f0;
+  --bg:#f7f9fc; --white:#ffffff;
+  --radius:14px; --shadow:0 10px 30px rgba(11,31,58,.10);
+  --font:'Inter',system-ui,-apple-system,sans-serif;
+  --serif:'Playfair Display',Georgia,serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.container{max-width:1180px;margin:0 auto;padding:0 24px}
+
+.nav{position:fixed;inset:0 0 auto;z-index:100;background:rgba(11,31,58,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:12px;color:#fff}
+.brand-mark{width:34px;height:34px;border-radius:8px;background:linear-gradient(135deg,var(--gold),#8a6d1a);display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px;padding:5px}
+.brand-mark i{background:rgba(255,255,255,.9);border-radius:1px}
+.brand-name{font-weight:800;font-size:17px;letter-spacing:.3px}
+.brand-name em{display:block;font-style:normal;font-size:10.5px;font-weight:500;color:var(--sky);letter-spacing:1.2px;text-transform:uppercase}
+.nav-links{display:flex;align-items:center;gap:24px;list-style:none}
+.nav-links a{color:rgba(255,255,255,.82);font-size:14px;font-weight:500;transition:.2s}
+.nav-links a:hover{color:var(--gold-2)}
+.nav-cta{background:var(--gold);color:var(--navy)!important;font-weight:700;padding:10px 20px;border-radius:8px}
+.nav-cta:hover{background:var(--gold-2);color:var(--navy)!important}
+.lang-link{color:var(--sky)!important;font-weight:600;border:1px solid rgba(255,255,255,.25);padding:6px 12px;border-radius:7px}
+.lang-link:hover{border-color:var(--sky)}
+.nav-toggle{display:none;background:none;border:none;color:#fff;font-size:24px;cursor:pointer}
+
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;color:#fff;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:url('images/hero.jpg') center/cover no-repeat}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(7,20,40,.85) 0%,rgba(7,20,40,.5) 50%,rgba(7,20,40,.1) 100%)}
+.hero-inner{position:relative;z-index:2;max-width:680px;padding:120px 24px 90px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold-2);margin-bottom:22px}
+.eyebrow::before{content:"";width:38px;height:2px;background:var(--gold)}
+.hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(40px,6vw,66px);line-height:1.08;margin-bottom:22px;letter-spacing:-.5px}
+.hero h1 em{font-style:italic;color:var(--gold-2)}
+.hero p{font-size:clamp(16px,2vw,19px);color:rgba(255,255,255,.88);max-width:570px;margin-bottom:36px}
+.hero-ctas{display:flex;gap:16px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:9px;font-weight:700;font-size:15px;padding:15px 30px;border-radius:10px;transition:.2s;cursor:pointer}
+.btn-gold{background:linear-gradient(135deg,var(--gold),#b18b1d);color:#0b1f3a;box-shadow:0 8px 24px rgba(201,162,39,.35)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(201,162,39,.5)}
+.btn-ghost{border:1.5px solid rgba(255,255,255,.55);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12);border-color:#fff}
+.hero-scroll{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,.7);font-size:12px;letter-spacing:2px;text-transform:uppercase;animation:bob 2.2s infinite}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,8px)}}
+
+.stats{background:var(--navy);border-bottom:1px solid rgba(255,255,255,.08)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.stat{padding:34px 20px;text-align:center;border-right:1px solid rgba(255,255,255,.08)}
+.stat:last-child{border-right:none}
+.stat b{display:block;font-size:34px;font-weight:800;color:var(--gold-2);line-height:1}
+.stat span{display:block;margin-top:10px;font-size:13px;color:rgba(255,255,255,.72)}
+
+.section{padding:96px 0}
+.section-head{max-width:740px;margin:0 auto 52px;text-align:center}
+.kicker{font-size:12px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+.section-head h2{font-family:var(--serif);font-size:clamp(30px,4vw,42px);line-height:1.15;color:var(--navy);margin-bottom:16px}
+.section-head p{color:var(--muted);font-size:16.5px}
+
+.gallery{background:var(--bg)}
+.gal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gal-card{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5;cursor:pointer;box-shadow:var(--shadow);background:var(--navy)}
+.gal-card img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.gal-card:hover img{transform:scale(1.06)}
+.gal-card figcaption{position:absolute;inset:auto 0 0;padding:28px 14px 12px;background:linear-gradient(transparent,rgba(7,20,40,.78));color:#fff;font-size:12.5px;font-weight:600;opacity:0;transition:.3s}
+.gal-card:hover figcaption{opacity:1}
+.gal-note{text-align:center;margin-top:26px;font-size:14px;color:var(--muted)}
+.gal-note b{color:var(--navy)}
+
+.craft{background:#fff}
+.craft-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.craft-card{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;transition:.25s}
+.craft-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.craft-card .ico{width:52px;height:52px;border-radius:12px;background:linear-gradient(135deg,var(--gold),#8a6d1a);display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:18px}
+.craft-card h3{font-size:17px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.craft-card p{font-size:14px;color:var(--muted)}
+
+.projects{background:var(--bg)}
+.proj-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.proj-card{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/3;box-shadow:var(--shadow)}
+.proj-card img{width:100%;height:100%;object-fit:cover;transition:transform .55s}
+.proj-card:hover img{transform:scale(1.05)}
+.proj-card figcaption{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:30px 22px 18px;background:linear-gradient(transparent 30%,rgba(7,20,40,.78));color:#fff;opacity:0;transition:.3s}
+.proj-card:hover figcaption{opacity:1}
+.proj-card figcaption b{font-size:16px}
+.proj-card figcaption span{font-size:12.5px;color:rgba(255,255,255,.8)}
+
+.process{background:#fff}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:step}
+.step{position:relative;background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:34px 24px 26px}
+.step::before{counter-increment:step;content:"0" counter(step);position:absolute;top:18px;right:20px;font-family:var(--serif);font-size:34px;font-weight:700;color:var(--gold);opacity:.35}
+.step .ico{font-size:26px;margin-bottom:14px}
+.step h3{font-size:16px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.step p{font-size:13.5px;color:var(--muted)}
+
+.cta{position:relative;overflow:hidden;color:#fff}
+.cta-bg{position:absolute;inset:0;background:url('images/proj1.jpg') center/cover no-repeat}
+.cta::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,20,40,.94),rgba(7,20,40,.78))}
+.cta-inner{position:relative;z-index:2;text-align:center;padding:100px 24px}
+.cta h2{font-family:var(--serif);font-size:clamp(30px,4vw,44px);margin-bottom:16px}
+.cta p{max-width:620px;margin:0 auto 36px;color:rgba(255,255,255,.85);font-size:16.5px}
+.quote-form{max-width:680px;margin:0 auto;text-align:left;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:30px;backdrop-filter:blur(6px)}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.quote-form input,.quote-form textarea{width:100%;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:10px;padding:13px 15px;color:#fff;font-family:var(--font);font-size:14.5px;outline:none;transition:.2s}
+.quote-form input::placeholder,.quote-form textarea::placeholder{color:rgba(255,255,255,.55)}
+.quote-form input:focus,.quote-form textarea:focus{border-color:var(--gold-2);background:rgba(255,255,255,.16)}
+.quote-form textarea{resize:vertical;margin-bottom:16px}
+.f-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.f-note{margin-top:14px;font-size:12.5px;color:rgba(255,255,255,.6);text-align:center}
+.f-ok{margin-top:14px;padding:12px;border-radius:10px;background:rgba(37,211,102,.15);border:1px solid rgba(37,211,102,.4);color:#7df0ab;font-size:13.5px;display:none}
+.f-err{margin-top:14px;padding:12px;border-radius:10px;background:rgba(255,90,90,.12);border:1px solid rgba(255,90,90,.4);color:#ffb3b3;font-size:13.5px;display:none}
+.btn-wa{background:#25d366;color:#0b1f3a!important;font-weight:700;border:none}
+.btn-wa:hover{background:#2ee06f;transform:translateY(-2px)}
+@media(max-width:640px){.f-row{grid-template-columns:1fr}}
+
+.footer{background:#081527;color:rgba(255,255,255,.7);padding:60px 0 30px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;padding-bottom:36px}
+.footer h4{color:#fff;font-size:15px;margin-bottom:16px}
+.footer p,.footer li{font-size:13.5px;line-height:1.9}
+.footer ul{list-style:none}
+.footer a:hover{color:var(--gold-2)}
+.footer .brand-name{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:22px;font-size:12.5px;text-align:center;color:rgba(255,255,255,.45)}
+
+.lightbox{position:fixed;inset:0;z-index:200;background:rgba(4,12,24,.93);display:none;align-items:center;justify-content:center;padding:40px;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:92vw;max-height:86vh;border-radius:10px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+
+@media(max-width:960px){
+  .gal-grid{grid-template-columns:repeat(2,1fr)}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .stat{border-bottom:1px solid rgba(255,255,255,.08)}
+  .craft-grid,.steps{grid-template-columns:repeat(2,1fr)}
+  .proj-grid{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .nav-links{position:fixed;top:68px;left:0;right:0;background:var(--navy);flex-direction:column;align-items:stretch;gap:0;padding:12px 24px 20px;display:none;border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+  .nav-cta{margin-top:12px;text-align:center}
+  .nav-toggle{display:block}
+  .gal-grid,.craft-grid,.steps{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .hero-inner{padding-top:110px}
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="brand-name">FengFu Mosaic<em>Foshan E-Tile · Handcut Art</em></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#craft">Craft</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a class="lang-link" href="zh/">中文</a></li>
+        <li><a class="nav-cta" href="#quote">Commission a Mural</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+    <span class="eyebrow">Handcrafted Mosaic Art</span>
+    <h1>Mosaic Art,<br>Cut &amp; Set <em>by Hand</em></h1>
+    <p>Bespoke handcut mosaic murals and feature walls — every tessera hand-cut and placed by master craftsmen. Your photo, painting or logo, reborn as a one-of-a-kind wall installation.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-gold" href="#gallery">View Gallery ↓</a>
+      <a class="btn btn-ghost" href="#quote">Commission a Mural</a>
+    </div>
+  </div>
+  <div class="hero-scroll">Scroll</div>
+</section>
+
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat"><b>14+</b><span>Years of Mosaic Craftsmanship</span></div>
+      <div class="stat"><b>100%</b><span>Hand-Cut &amp; Hand-Placed</span></div>
+      <div class="stat"><b>15k+</b><span>Tiles in a Single Mural</span></div>
+      <div class="stat"><b>30+</b><span>Countries Delivered</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">The Collection</div>
+      <h2>Handcut Mosaic Art Collection</h2>
+      <p>Classical blue-and-white, impressionist landscapes, florals and custom art — each piece is a unique handcrafted work, scaled to your wall.</p>
+    </div>
+    <div class="gal-grid">
+      <figure class="gal-card"><img src="images/gallery/handcut_01.jpg" alt="Blue and white floral bird handcut mosaic mural" loading="lazy"><figcaption>Blue-White Floral &amp; Birds</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_02.jpg" alt="European canal landscape handcut mosaic mural" loading="lazy"><figcaption>European Canal Scene</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_03.jpg" alt="Handcut mosaic art mural 03" loading="lazy"><figcaption>Art Mural 03</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_04.jpg" alt="White blossom with gold core handcut mosaic mural" loading="lazy"><figcaption>White Blossom &amp; Gold</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_05.jpg" alt="Handcut mosaic art mural 05" loading="lazy"><figcaption>Art Mural 05</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_06.jpg" alt="Handcut mosaic art mural 06" loading="lazy"><figcaption>Art Mural 06</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_07.jpg" alt="Handcut mosaic art mural 07" loading="lazy"><figcaption>Art Mural 07</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_08.jpg" alt="Handcut mosaic art mural 08" loading="lazy"><figcaption>Art Mural 08</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_09.jpg" alt="Handcut mosaic art mural 09" loading="lazy"><figcaption>Art Mural 09</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_10.jpg" alt="Handcut mosaic art mural 10" loading="lazy"><figcaption>Art Mural 10</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_11.jpg" alt="Handcut mosaic art mural 11" loading="lazy"><figcaption>Art Mural 11</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_12.jpg" alt="Handcut mosaic art mural 12" loading="lazy"><figcaption>Art Mural 12</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_14.jpg" alt="Handcut mosaic art mural 14" loading="lazy"><figcaption>Art Mural 14</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_15.jpg" alt="Handcut mosaic art mural 15" loading="lazy"><figcaption>Art Mural 15</figcaption></figure>
+      <figure class="gal-card"><img src="images/gallery/handcut_16.jpg" alt="Handcut mosaic art mural 16" loading="lazy"><figcaption>Art Mural 16</figcaption></figure>
+    </div>
+    <p class="gal-note"><b>Dreaming of a different scene?</b> Send us any image — a family portrait, brand logo or masterpiece — and we will handcraft it into mosaic art.</p>
+  </div>
+</section>
+
+<section class="section craft" id="craft">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Why Handcut</div>
+      <h2>The Craft Behind the Wall</h2>
+      <p>Machine mosaics repeat; handcut art breathes. Here is what sets a FengFu mural apart.</p>
+    </div>
+    <div class="craft-grid">
+      <div class="craft-card"><div class="ico">✂️</div><h3>Genuinely Handcrafted</h3><p>Every tessera is cut and placed by hand — subtle variation, depth and life that no machine can copy.</p></div>
+      <div class="craft-card"><div class="ico">🎨</div><h3>Any Image, Any Size</h3><p>Photos, paintings and logos mapped to your exact wall dimensions, any scale from backsplash to lobby.</p></div>
+      <div class="craft-card"><div class="ico">💎</div><h3>Mixed Materials</h3><p>Glass, stone, shell and gold accents blended in one artwork for texture and light play.</p></div>
+      <div class="craft-card"><div class="ico">📐</div><h3>Precision Mapping</h3><p>CAD layout, colour plan and quantity sheet delivered before production — no surprises.</p></div>
+      <div class="craft-card"><div class="ico">🧱</div><h3>Installer Friendly</h3><p>Mesh-backed sheets and a numbered installation map make professional installation straightforward.</p></div>
+      <div class="craft-card"><div class="ico">📦</div><h3>Export-Ready Packing</h3><p>Secure crating and anti-vibration protection for worldwide shipping.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section projects" id="projects">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">In Situ</div>
+      <h2>Murals That Transform Spaces</h2>
+      <p>Bathroom feature walls, living-room backdrops, hotel lobbies — a glimpse of FengFu handcut art on site.</p>
+    </div>
+    <div class="proj-grid">
+      <figure class="proj-card"><img src="images/proj1.jpg" alt="Blue and white bird mosaic mural bathroom wall" loading="lazy"><figcaption><b>Bathroom Feature Wall</b><span>Blue-white chinoiserie mural, private residence</span></figcaption></figure>
+      <figure class="proj-card"><img src="images/proj2.jpg" alt="White blossom gold mosaic mural bathroom" loading="lazy"><figcaption><b>Luxury Bathroom Backdrop</b><span>White blossom with gold accents, villa</span></figcaption></figure>
+      <figure class="proj-card"><img src="images/proj3.jpg" alt="Blue and white floral bird mosaic detail" loading="lazy"><figcaption><b>Chinoiserie Mural Detail</b><span>Hand-placed cobalt birds &amp; blossoms</span></figcaption></figure>
+      <figure class="proj-card"><img src="images/proj4.jpg" alt="Blue and white bird mosaic bathroom with bathtub" loading="lazy"><figcaption><b>Bath &amp; Backdrop</b><span>Classic blue-white scheme, spa bathroom</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section process" id="process">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">How It Works</div>
+      <h2>From Artwork to Installed Mural</h2>
+      <p>Four clear steps — you share the artwork, master craftsmen do the rest.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="ico">🖼️</div><h3>Share Your Artwork</h3><p>Send a photo, painting, logo or design idea, plus your wall dimensions.</p></div>
+      <div class="step"><div class="ico">🎨</div><h3>Free Design Plan</h3><p>Our art team maps every tile, material and colour — free CAD preview.</p></div>
+      <div class="step"><div class="ico">🖐️</div><h3>Handcraft Production</h3><p>Master craftsmen cut and set each tessera, sheet by numbered sheet.</p></div>
+      <div class="step"><div class="ico">🚢</div><h3>Global Delivery</h3><p>Cratted and shipped worldwide with installation map and support.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="quote">
+  <div class="cta-bg"></div>
+  <div class="cta-inner container">
+    <h2>Commission Your Mural</h2>
+    <p>Send us your artwork and wall size — get a free mosaic design plan and quotation within 24 hours.</p>
+    <form class="quote-form" id="quoteForm">
+      <div class="f-row">
+        <input type="text" name="name" placeholder="Your Name *" required>
+        <input type="email" name="email" placeholder="Email *" required>
+      </div>
+      <div class="f-row">
+        <input type="text" name="country" placeholder="Country / Region">
+        <input type="text" name="pool" placeholder="Wall Size (e.g. 3m × 2.4m)">
+      </div>
+      <textarea name="message" rows="4" placeholder="Describe your artwork — subject, style, materials, colour preference..."></textarea>
+      <div class="f-actions">
+        <button type="submit" class="btn btn-gold">Send Inquiry</button>
+        <a class="btn btn-wa" href="https://wa.me/8613827780690?text=Hello%20FengFu%20Mosaic%2C%20I%27d%20like%20to%20commission%20a%20handcut%20mosaic%20mural." target="_blank" rel="noopener">WhatsApp +86 138 2778 0690</a>
+      </div>
+      <div class="f-ok" id="fOk">✅ Inquiry sent! We will reply within 24 hours.</div>
+      <div class="f-err" id="fErr">⚠️ Submission failed — your email app has been opened with the inquiry pre-filled. Just press send, or chat with us on WhatsApp.</div>
+      <p class="f-note">Submitting sends your inquiry straight to our inbox — or chat with us instantly on WhatsApp.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="#top">
+          <span class="brand-mark"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          <span class="brand-name">FengFu Mosaic<em>Foshan E-Tile · Mosaic</em></span>
+        </a>
+        <p style="margin-top:14px">14+ years of mosaic R&amp;D and production. Handcut mosaic art murals, feature walls, pool mosaics and engineering murals for worldwide projects.</p>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#gallery">Handcut Collection</a></li>
+          <li><a href="#projects">Project Gallery</a></li>
+          <li><a href="#process">Commission Service</a></li>
+          <li><a href="https://myjerry243.github.io/pool-landing/" target="_blank" rel="noopener">Pool Mosaic Landing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Foshan E-Tile Building Material Co., Ltd.</li>
+          <li>Foshan, Guangdong, China</li>
+          <li><a href="mailto:sales@etile-mosaic.com">sales@etile-mosaic.com</a></li>
+          <li><a href="https://wa.me/8613827780690" target="_blank" rel="noopener">WhatsApp: +86 138 2778 0690</a></li>
+          <li><a href="#quote">Commission a Mural →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Foshan E-Tile Building Material Co., Ltd. · FengFu Mosaic · Handcut Mosaic Art</div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox"><img id="lightboxImg" src="" alt="Enlarged view"></div>
+
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function(){
+  document.getElementById('navLinks').classList.toggle('open');
+});
+document.querySelectorAll('#navLinks a').forEach(function(a){
+  a.addEventListener('click', function(){ document.getElementById('navLinks').classList.remove('open'); });
+});
+function openLightbox(src){
+  document.getElementById('lightboxImg').src = src;
+  document.getElementById('lightbox').classList.add('open');
+}
+document.querySelectorAll('.gal-card, .proj-card').forEach(function(card){
+  card.addEventListener('click', function(){
+    openLightbox(card.querySelector('img').src);
+  });
+});
+document.getElementById('lightbox').addEventListener('click', function(){ this.classList.remove('open'); });
+document.addEventListener('keydown', function(e){
+  if(e.key === 'Escape'){ document.getElementById('lightbox').classList.remove('open'); }
+});
+document.getElementById('quoteForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  var f = this;
+  var ok = document.getElementById('fOk');
+  var err = document.getElementById('fErr');
+  ok.style.display = 'none'; err.style.display = 'none';
+  var data = {
+    name: f.name.value.trim(),
+    email: f.email.value.trim(),
+    country: f.country.value.trim(),
+    pool: f.pool.value.trim(),
+    message: f.message.value.trim()
+  };
+  var fd = new FormData();
+  Object.keys(data).forEach(function(k){ fd.append(k, data[k]); });
+  fd.append('_subject', 'Handcut Mural Inquiry - ' + (data.name || 'New Lead'));
+  fd.append('_captcha', 'false');
+  fetch('https://formsubmit.co/ajax/sales@etile-mosaic.com', { method: 'POST', body: fd })
+    .then(function(r){ return r.json(); })
+    .then(function(j){
+      if (j.success) { ok.style.display = 'block'; f.reset(); }
+      else { mailtoFallback(data); err.style.display = 'block'; }
+    })
+    .catch(function(){ mailtoFallback(data); err.style.display = 'block'; });
+});
+function mailtoFallback(data){
+  var subject = encodeURIComponent('Handcut Mural Inquiry - ' + (data.name || 'New Lead'));
+  var body = encodeURIComponent(
+    'Name: ' + data.name + '\n' +
+    'Email: ' + data.email + '\n' +
+    'Country: ' + data.country + '\n' +
+    'Wall Size: ' + data.pool + '\n' +
+    'Artwork Idea:\n' + data.message
+  );
+  window.location.href = 'mailto:sales@etile-mosaic.com?subject=' + subject + '&body=' + body;
+}
+</script>
+</body>
+</html>

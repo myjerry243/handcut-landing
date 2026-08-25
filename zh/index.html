@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>马赛克手工艺术剪画 | FengFu 马赛克 — 手工背景墙定制</title>
+<meta name="description" content="佛山厂家定制马赛克手工艺术剪画与背景墙。每一片马赛克均由工匠手工剪裁、逐片拼贴——把您的照片、画作或 Logo 变成独一无二的墙面艺术。">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="马赛克手工艺术剪画 | FengFu 马赛克">
+<meta property="og:description" content="定制马赛克手工艺术剪画与背景墙 — 每一片均由工匠手工剪裁、逐片拼贴。">
+<meta property="og:image" content="../images/hero.jpg">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230d1b2a'/%3E%3Cpath d='M4 4h8v8H4zM12 4h8v8h-8zM20 4h8v8h-8zM4 12h8v8H4zM12 12h8v8h-8zM20 12h8v8h-8zM4 20h8v8H4zM12 20h8v8h-8zM20 20h8v8h-8z' fill='%23c9a227'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0b1f3a; --navy-2:#0e2a4f; --navy-3:#12345f;
+  --gold:#c9a227; --gold-2:#e3c568;
+  --aqua:#3ec6d8; --sky:#7fd8e8;
+  --ink:#1a2332; --muted:#5c6b7e; --line:#e3e9f0;
+  --bg:#f7f9fc; --white:#ffffff;
+  --radius:14px; --shadow:0 10px 30px rgba(11,31,58,.10);
+  --font:'Noto Sans SC','Inter',system-ui,-apple-system,sans-serif;
+  --serif:'Noto Serif SC',Georgia,serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);color:var(--ink);background:var(--white);line-height:1.7;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.container{max-width:1180px;margin:0 auto;padding:0 24px}
+
+.nav{position:fixed;inset:0 0 auto;z-index:100;background:rgba(11,31,58,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:12px;color:#fff}
+.brand-mark{width:34px;height:34px;border-radius:8px;background:linear-gradient(135deg,var(--gold),#8a6d1a);display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px;padding:5px}
+.brand-mark i{background:rgba(255,255,255,.9);border-radius:1px}
+.brand-name{font-weight:900;font-size:17px;letter-spacing:.3px}
+.brand-name em{display:block;font-style:normal;font-size:10.5px;font-weight:500;color:var(--sky);letter-spacing:1.2px}
+.nav-links{display:flex;align-items:center;gap:24px;list-style:none}
+.nav-links a{color:rgba(255,255,255,.82);font-size:14px;font-weight:500;transition:.2s}
+.nav-links a:hover{color:var(--gold-2)}
+.nav-cta{background:var(--gold);color:var(--navy)!important;font-weight:700;padding:10px 20px;border-radius:8px}
+.nav-cta:hover{background:var(--gold-2);color:var(--navy)!important}
+.lang-link{color:var(--sky)!important;font-weight:600;border:1px solid rgba(255,255,255,.25);padding:6px 12px;border-radius:7px}
+.lang-link:hover{border-color:var(--sky)}
+.nav-toggle{display:none;background:none;border:none;color:#fff;font-size:24px;cursor:pointer}
+
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;color:#fff;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:url('../images/hero.jpg') center/cover no-repeat}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(7,20,40,.85) 0%,rgba(7,20,40,.5) 50%,rgba(7,20,40,.1) 100%)}
+.hero-inner{position:relative;z-index:2;max-width:700px;padding:120px 24px 90px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:2.5px;color:var(--gold-2);margin-bottom:22px}
+.eyebrow::before{content:"";width:38px;height:2px;background:var(--gold)}
+.hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(38px,6vw,62px);line-height:1.15;margin-bottom:22px;letter-spacing:.5px}
+.hero h1 em{font-style:normal;color:var(--gold-2)}
+.hero p{font-size:clamp(16px,2vw,18.5px);color:rgba(255,255,255,.88);max-width:590px;margin-bottom:36px}
+.hero-ctas{display:flex;gap:16px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:9px;font-weight:700;font-size:15px;padding:15px 30px;border-radius:10px;transition:.2s;cursor:pointer}
+.btn-gold{background:linear-gradient(135deg,var(--gold),#b18b1d);color:#0b1f3a;box-shadow:0 8px 24px rgba(201,162,39,.35)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(201,162,39,.5)}
+.btn-ghost{border:1.5px solid rgba(255,255,255,.55);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12);border-color:#fff}
+.hero-scroll{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,.7);font-size:12px;letter-spacing:2px;animation:bob 2.2s infinite}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,8px)}}
+
+.stats{background:var(--navy);border-bottom:1px solid rgba(255,255,255,.08)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.stat{padding:34px 20px;text-align:center;border-right:1px solid rgba(255,255,255,.08)}
+.stat:last-child{border-right:none}
+.stat b{display:block;font-size:34px;font-weight:800;color:var(--gold-2);line-height:1}
+.stat span{display:block;margin-top:10px;font-size:13px;color:rgba(255,255,255,.72)}
+
+.section{padding:96px 0}
+.section-head{max-width:740px;margin:0 auto 52px;text-align:center}
+.kicker{font-size:12px;font-weight:800;letter-spacing:2.5px;color:var(--gold);margin-bottom:14px}
+.section-head h2{font-family:var(--serif);font-size:clamp(28px,4vw,40px);line-height:1.2;color:var(--navy);margin-bottom:16px}
+.section-head p{color:var(--muted);font-size:16px}
+
+.gallery{background:var(--bg)}
+.gal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gal-card{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5;cursor:pointer;box-shadow:var(--shadow);background:var(--navy)}
+.gal-card img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.gal-card:hover img{transform:scale(1.06)}
+.gal-card figcaption{position:absolute;inset:auto 0 0;padding:28px 14px 12px;background:linear-gradient(transparent,rgba(7,20,40,.78));color:#fff;font-size:12.5px;font-weight:600;opacity:0;transition:.3s}
+.gal-card:hover figcaption{opacity:1}
+.gal-note{text-align:center;margin-top:26px;font-size:14px;color:var(--muted)}
+.gal-note b{color:var(--navy)}
+
+.craft{background:#fff}
+.craft-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.craft-card{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;transition:.25s}
+.craft-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.craft-card .ico{width:52px;height:52px;border-radius:12px;background:linear-gradient(135deg,var(--gold),#8a6d1a);display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:18px}
+.craft-card h3{font-size:17px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.craft-card p{font-size:14px;color:var(--muted)}
+
+.projects{background:var(--bg)}
+.proj-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.proj-card{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/3;box-shadow:var(--shadow)}
+.proj-card img{width:100%;height:100%;object-fit:cover;transition:transform .55s}
+.proj-card:hover img{transform:scale(1.05)}
+.proj-card figcaption{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:30px 22px 18px;background:linear-gradient(transparent 30%,rgba(7,20,40,.78));color:#fff;opacity:0;transition:.3s}
+.proj-card:hover figcaption{opacity:1}
+.proj-card figcaption b{font-size:16px}
+.proj-card figcaption span{font-size:12.5px;color:rgba(255,255,255,.8)}
+
+.process{background:#fff}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:step}
+.step{position:relative;background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:34px 24px 26px}
+.step::before{counter-increment:step;content:"0" counter(step);position:absolute;top:18px;right:20px;font-family:var(--serif);font-size:34px;font-weight:700;color:var(--gold);opacity:.35}
+.step .ico{font-size:26px;margin-bottom:14px}
+.step h3{font-size:16px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.step p{font-size:13.5px;color:var(--muted)}
+
+.cta{position:relative;overflow:hidden;color:#fff}
+.cta-bg{position:absolute;inset:0;background:url('../images/proj1.jpg') center/cover no-repeat}
+.cta::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,20,40,.94),rgba(7,20,40,.78))}
+.cta-inner{position:relative;z-index:2;text-align:center;padding:100px 24px}
+.cta h2{font-family:var(--serif);font-size:clamp(28px,4vw,42px);margin-bottom:16px}
+.cta p{max-width:620px;margin:0 auto 36px;color:rgba(255,255,255,.85);font-size:16px}
+.quote-form{max-width:680px;margin:0 auto;text-align:left;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:30px;backdrop-filter:blur(6px)}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.quote-form input,.quote-form textarea{width:100%;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:10px;padding:13px 15px;color:#fff;font-family:var(--font);font-size:14.5px;outline:none;transition:.2s}
+.quote-form input::placeholder,.quote-form textarea::placeholder{color:rgba(255,255,255,.55)}
+.quote-form input:focus,.quote-form textarea:focus{border-color:var(--gold-2);background:rgba(255,255,255,.16)}
+.quote-form textarea{resize:vertical;margin-bottom:16px}
+.f-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.f-note{margin-top:14px;font-size:12.5px;color:rgba(255,255,255,.6);text-align:center}
+.f-ok{margin-top:14px;padding:12px;border-radius:10px;background:rgba(37,211,102,.15);border:1px solid rgba(37,211,102,.4);color:#7df0ab;font-size:13.5px;display:none}
+.f-err{margin-top:14px;padding:12px;border-radius:10px;background:rgba(255,90,90,.12);border:1px solid rgba(255,90,90,.4);color:#ffb3b3;font-size:13.5px;display:none}
+.btn-wa{background:#25d366;color:#0b1f3a!important;font-weight:700;border:none}
+.btn-wa:hover{background:#2ee06f;transform:translateY(-2px)}
+@media(max-width:640px){.f-row{grid-template-columns:1fr}}
+
+.footer{background:#081527;color:rgba(255,255,255,.7);padding:60px 0 30px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;padding-bottom:36px}
+.footer h4{color:#fff;font-size:15px;margin-bottom:16px}
+.footer p,.footer li{font-size:13.5px;line-height:1.9}
+.footer ul{list-style:none}
+.footer a:hover{color:var(--gold-2)}
+.footer .brand-name{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:22px;font-size:12.5px;text-align:center;color:rgba(255,255,255,.45)}
+
+.lightbox{position:fixed;inset:0;z-index:200;background:rgba(4,12,24,.93);display:none;align-items:center;justify-content:center;padding:40px;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:92vw;max-height:86vh;border-radius:10px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+
+@media(max-width:960px){
+  .gal-grid{grid-template-columns:repeat(2,1fr)}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .stat{border-bottom:1px solid rgba(255,255,255,.08)}
+  .craft-grid,.steps{grid-template-columns:repeat(2,1fr)}
+  .proj-grid{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .nav-links{position:fixed;top:68px;left:0;right:0;background:var(--navy);flex-direction:column;align-items:stretch;gap:0;padding:12px 24px 20px;display:none;border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+  .nav-cta{margin-top:12px;text-align:center}
+  .nav-toggle{display:block}
+  .gal-grid,.craft-grid,.steps{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .hero-inner{padding-top:110px}
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="brand-name">FengFu 马赛克<em>佛山亿泰建材 · 手工剪画</em></span>
+    </a>
+    <button class="nav-toggle" aria-label="菜单">☰</button>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#gallery">作品集</a></li>
+        <li><a href="#craft">手工工艺</a></li>
+        <li><a href="#projects">项目案例</a></li>
+        <li><a href="#process">定制流程</a></li>
+        <li><a class="lang-link" href="../">English</a></li>
+        <li><a class="nav-cta" href="#quote">定制剪画</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+    <span class="eyebrow">手工马赛克艺术</span>
+    <h1>马赛克艺术，<br><em>手工</em>剪裁与拼贴</h1>
+    <p>定制马赛克手工艺术剪画与背景墙——每一片马赛克都由工匠手工剪裁、逐片拼贴。您的照片、画作或 Logo，化为独一无二的墙面艺术。</p>
+    <div class="hero-ctas">
+      <a class="btn btn-gold" href="#gallery">浏览作品 ↓</a>
+      <a class="btn btn-ghost" href="#quote">定制剪画</a>
+    </div>
+  </div>
+  <div class="hero-scroll">下滑</div>
+</section>
+
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat"><b>14+</b><span>年马赛克工艺经验</span></div>
+      <div class="stat"><b>100%</b><span>手工剪裁 · 逐片拼贴</span></div>
+      <div class="stat"><b>1.5万+</b><span>单幅壁画马赛克片数</span></div>
+      <div class="stat"><b>30+</b><span>交付国家与地区</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">作品集</div>
+      <h2>手工马赛克剪画作品</h2>
+      <p>青花瓷韵、印象派风景、花卉与定制艺术——每一幅都是独一无二的手工之作，按您的墙面尺寸缩放。</p>
+    </div>
+    <div class="gal-grid">
+      <figure class="gal-card"><img src="../images/gallery/handcut_01.jpg" alt="青花瓷花鸟手工马赛克剪画" loading="lazy"><figcaption>青花花鸟</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_02.jpg" alt="欧洲水乡风景手工马赛克剪画" loading="lazy"><figcaption>欧洲水乡风景</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_03.jpg" alt="手工马赛克剪画作品03" loading="lazy"><figcaption>作品 03</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_04.jpg" alt="金蕊白花手工马赛克剪画" loading="lazy"><figcaption>白花金蕊</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_05.jpg" alt="手工马赛克剪画作品05" loading="lazy"><figcaption>作品 05</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_06.jpg" alt="手工马赛克剪画作品06" loading="lazy"><figcaption>作品 06</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_07.jpg" alt="手工马赛克剪画作品07" loading="lazy"><figcaption>作品 07</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_08.jpg" alt="手工马赛克剪画作品08" loading="lazy"><figcaption>作品 08</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_09.jpg" alt="手工马赛克剪画作品09" loading="lazy"><figcaption>作品 09</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_10.jpg" alt="手工马赛克剪画作品10" loading="lazy"><figcaption>作品 10</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_11.jpg" alt="手工马赛克剪画作品11" loading="lazy"><figcaption>作品 11</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_12.jpg" alt="手工马赛克剪画作品12" loading="lazy"><figcaption>作品 12</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_14.jpg" alt="手工马赛克剪画作品14" loading="lazy"><figcaption>作品 14</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_15.jpg" alt="手工马赛克剪画作品15" loading="lazy"><figcaption>作品 15</figcaption></figure>
+      <figure class="gal-card"><img src="../images/gallery/handcut_16.jpg" alt="手工马赛克剪画作品16" loading="lazy"><figcaption>作品 16</figcaption></figure>
+    </div>
+    <p class="gal-note"><b>想要不一样的画面？</b>发来任何图片——全家福、品牌 Logo 或名画——我们为您手工打造成马赛克艺术。</p>
+  </div>
+</section>
+
+<section class="section craft" id="craft">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">为什么选手工</div>
+      <h2>墙面背后的匠心</h2>
+      <p>机器马赛克千篇一律；手工剪画有呼吸。这就是 FengFu 剪画与众不同的地方。</p>
+    </div>
+    <div class="craft-grid">
+      <div class="craft-card"><div class="ico">✂️</div><h3>真正手工制作</h3><p>每一片马赛克均由手工剪裁拼贴——微妙的差异、层次与生命力，机器无法复制。</p></div>
+      <div class="craft-card"><div class="ico">🎨</div><h3>任意图案 · 任意尺寸</h3><p>照片、画作与 Logo 按您的墙面精确排版，从背景墙到酒店大堂任意尺度。</p></div>
+      <div class="craft-card"><div class="ico">💎</div><h3>多材质混拼</h3><p>玻璃、石材、贝壳与金色点缀融合于同一幅作品，光影与质感层次丰富。</p></div>
+      <div class="craft-card"><div class="ico">📐</div><h3>精准排版</h3><p>生产前交付 CAD 排版、配色方案与用量清单——所见即所得。</p></div>
+      <div class="craft-card"><div class="ico">🧱</div><h3>安装友好</h3><p>网格背贴 + 编号安装图，专业施工团队轻松上手。</p></div>
+      <div class="craft-card"><div class="ico">📦</div><h3>出口级包装</h3><p>加固木箱与防震保护，全球安全送达。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section projects" id="projects">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">实景呈现</div>
+      <h2>让空间焕然一新的剪画</h2>
+      <p>浴室背景墙、客厅沙发墙、酒店大堂——FengFu 手工剪画在项目现场的效果。</p>
+    </div>
+    <div class="proj-grid">
+      <figure class="proj-card"><img src="../images/proj1.jpg" alt="青花瓷花鸟马赛克剪画浴室背景墙" loading="lazy"><figcaption><b>浴室背景墙</b><span>青花花鸟剪画，私人住宅</span></figcaption></figure>
+      <figure class="proj-card"><img src="../images/proj2.jpg" alt="金蕊白花马赛克剪画浴室" loading="lazy"><figcaption><b>轻奢浴室背景墙</b><span>白花金蕊剪画，别墅项目</span></figcaption></figure>
+      <figure class="proj-card"><img src="../images/proj3.jpg" alt="青花花鸟马赛克剪画细节" loading="lazy"><figcaption><b>青花剪画细节</b><span>手工拼贴的钴蓝鸟与花枝</span></figcaption></figure>
+      <figure class="proj-card"><img src="../images/proj4.jpg" alt="青花马赛克剪画浴缸背景" loading="lazy"><figcaption><b>浴缸与背景墙</b><span>经典蓝白配色，SPA 卫浴</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section process" id="process">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">合作流程</div>
+      <h2>从作品到上墙</h2>
+      <p>四步清晰流程——您提供作品，工匠完成其余。</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="ico">🖼️</div><h3>提供作品</h3><p>发送照片、画作、Logo 或设计想法，附墙面尺寸。</p></div>
+      <div class="step"><div class="ico">🎨</div><h3>免费设计方案</h3><p>艺术团队逐片排版、选材、配色——免费 CAD 预览。</p></div>
+      <div class="step"><div class="ico">🖐️</div><h3>手工制作</h3><p>工匠逐片剪裁拼贴，按编号逐张成板。</p></div>
+      <div class="step"><div class="ico">🚢</div><h3>全球交付</h3><p>加固包装全球发货，附安装图与技术支持。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="quote">
+  <div class="cta-bg"></div>
+  <div class="cta-inner container">
+    <h2>定制您的马赛克剪画</h2>
+    <p>发送您的作品与墙面尺寸——24 小时内获得免费设计方案与报价。</p>
+    <form class="quote-form" id="quoteForm">
+      <div class="f-row">
+        <input type="text" name="name" placeholder="您的姓名 *" required>
+        <input type="email" name="email" placeholder="邮箱 *" required>
+      </div>
+      <div class="f-row">
+        <input type="text" name="country" placeholder="国家 / 地区">
+        <input type="text" name="pool" placeholder="墙面尺寸（如 3m × 2.4m）">
+      </div>
+      <textarea name="message" rows="4" placeholder="描述您的作品——主题、风格、材质、偏好颜色……"></textarea>
+      <div class="f-actions">
+        <button type="submit" class="btn btn-gold">发送询盘</button>
+        <a class="btn btn-wa" href="https://wa.me/8613827780690?text=你好%2C%20我想定制马赛克手工艺术剪画。" target="_blank" rel="noopener">WhatsApp +86 138 2778 0690</a>
+      </div>
+      <div class="f-ok" id="fOk">✅ 询盘已发送！我们将在 24 小时内回复您。</div>
+      <div class="f-err" id="fErr">⚠️ 提交失败，已为您打开邮件客户端——点击发送即可（或直接使用 WhatsApp 联系）。</div>
+      <p class="f-note">点击"发送询盘"后，询盘直接送达我们邮箱；也可随时通过 WhatsApp 即时沟通。</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="#top">
+          <span class="brand-mark"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          <span class="brand-name">FengFu 马赛克<em>佛山亿泰建材 · 马赛克</em></span>
+        </a>
+        <p style="margin-top:14px">14+ 年马赛克研发与生产经验。手工艺术剪画、背景墙、泳池马赛克与工程壁画，服务全球项目。</p>
+      </div>
+      <div>
+        <h4>产品</h4>
+        <ul>
+          <li><a href="#gallery">剪画作品集</a></li>
+          <li><a href="#projects">项目案例</a></li>
+          <li><a href="#process">定制服务</a></li>
+          <li><a href="https://myjerry243.github.io/pool-landing/" target="_blank" rel="noopener">泳池拼图落地页</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系我们</h4>
+        <ul>
+          <li>佛山亿泰建材有限公司</li>
+          <li>中国广东省佛山市</li>
+          <li><a href="mailto:sales@etile-mosaic.com">sales@etile-mosaic.com</a></li>
+          <li><a href="https://wa.me/8613827780690" target="_blank" rel="noopener">WhatsApp: +86 138 2778 0690</a></li>
+          <li><a href="#quote">免费获取报价 →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 佛山亿泰建材有限公司 · FengFu 马赛克 · 手工马赛克艺术</div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox"><img id="lightboxImg" src="" alt="放大查看"></div>
+
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function(){
+  document.getElementById('navLinks').classList.toggle('open');
+});
+document.querySelectorAll('#navLinks a').forEach(function(a){
+  a.addEventListener('click', function(){ document.getElementById('navLinks').classList.remove('open'); });
+});
+function openLightbox(src){
+  document.getElementById('lightboxImg').src = src;
+  document.getElementById('lightbox').classList.add('open');
+}
+document.querySelectorAll('.gal-card, .proj-card').forEach(function(card){
+  card.addEventListener('click', function(){
+    openLightbox(card.querySelector('img').src);
+  });
+});
+document.getElementById('lightbox').addEventListener('click', function(){ this.classList.remove('open'); });
+document.addEventListener('keydown', function(e){
+  if(e.key === 'Escape'){ document.getElementById('lightbox').classList.remove('open'); }
+});
+document.getElementById('quoteForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  var f = this;
+  var ok = document.getElementById('fOk');
+  var err = document.getElementById('fErr');
+  ok.style.display = 'none'; err.style.display = 'none';
+  var data = {
+    name: f.name.value.trim(),
+    email: f.email.value.trim(),
+    country: f.country.value.trim(),
+    pool: f.pool.value.trim(),
+    message: f.message.value.trim()
+  };
+  var fd = new FormData();
+  Object.keys(data).forEach(function(k){ fd.append(k, data[k]); });
+  fd.append('_subject', '马赛克剪画询盘 - ' + (data.name || '新线索'));
+  fd.append('_captcha', 'false');
+  fetch('https://formsubmit.co/ajax/sales@etile-mosaic.com', { method: 'POST', body: fd })
+    .then(function(r){ return r.json(); })
+    .then(function(j){
+      if (j.success) { ok.style.display = 'block'; f.reset(); }
+      else { mailtoFallback(data); err.style.display = 'block'; }
+    })
+    .catch(function(){ mailtoFallback(data); err.style.display = 'block'; });
+});
+function mailtoFallback(data){
+  var subject = encodeURIComponent('马赛克剪画询盘 - ' + (data.name || '新线索'));
+  var body = encodeURIComponent(
+    '姓名: ' + data.name + '\n' +
+    '邮箱: ' + data.email + '\n' +
+    '国家/地区: ' + data.country + '\n' +
+    '墙面尺寸: ' + data.pool + '\n' +
+    '作品想法:\n' + data.message
+  );
+  window.location.href = 'mailto:sales@etile-mosaic.com?subject=' + subject + '&body=' + body;
+}
+</script>
+</body>
+</html>
