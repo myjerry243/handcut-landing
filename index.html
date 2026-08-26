@@ -351,7 +351,7 @@ a{color:inherit;text-decoration:none}
         <ul>
           <li>Foshan E-Tile Building Material Co., Ltd.</li>
           <li>Foshan, Guangdong, China</li>
-          <li><a href="mailto:sales@etile-mosaic.com">sales@etile-mosaic.com</a></li>
+          <li><a href="mailto:tinafs618@gmail.com">tinafs618@gmail.com</a></li>
           <li><a href="https://wa.me/8613827780690" target="_blank" rel="noopener">WhatsApp: +86 138 2778 0690</a></li>
           <li><a href="#quote">Commission a Mural →</a></li>
         </ul>
@@ -400,7 +400,7 @@ document.getElementById('quoteForm').addEventListener('submit', function(e){
   Object.keys(data).forEach(function(k){ fd.append(k, data[k]); });
   fd.append('_subject', 'Handcut Mural Inquiry - ' + (data.name || 'New Lead'));
   fd.append('_captcha', 'false');
-  fetch('https://formsubmit.co/ajax/sales@etile-mosaic.com', { method: 'POST', body: fd })
+  fetch('https://formsubmit.co/ajax/tinafs618@gmail.com', { method: 'POST', body: fd })
     .then(function(r){ return r.json(); })
     .then(function(j){
       if (j.success) { ok.style.display = 'block'; f.reset(); }
@@ -417,7 +417,7 @@ function mailtoFallback(data){
     'Wall Size: ' + data.pool + '\n' +
     'Artwork Idea:\n' + data.message
   );
-  window.location.href = 'mailto:sales@etile-mosaic.com?subject=' + subject + '&body=' + body;
+  window.location.href = 'mailto:tinafs618@gmail.com?subject=' + subject + '&body=' + body;
 }
 </script>
 </body>
