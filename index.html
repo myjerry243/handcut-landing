@@ -211,12 +211,29 @@ a{color:inherit;text-decoration:none}
 .lightbox.open{display:flex}
 .lightbox img{max-width:92vw;max-height:86vh;border-radius:10px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
 
+.makingof{background:linear-gradient(160deg,#0b1f3a 0%,#0e2a4f 60%,#12345f 100%);position:relative;overflow:hidden}
+.makingof::before{content:"";position:absolute;inset:0;background:radial-gradient(900px 420px at 85% 0%,rgba(201,162,39,.10),transparent 60%)}
+.makingof .container{position:relative;z-index:2}
+.makingof .section-head h2{color:#fff}
+.makingof .section-head p{color:rgba(255,255,255,.75)}
+.mo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.mo-card{margin:0;display:flex;flex-direction:column}
+.mo-video{position:relative;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.14);background:#000;box-shadow:0 16px 44px rgba(0,0,0,.38);aspect-ratio:9/16}
+.mo-video video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.mo-card figcaption{padding:14px 4px 0}
+.mo-card figcaption b{display:block;font-size:15px;font-weight:700;color:var(--gold-2);letter-spacing:.3px;margin-bottom:5px}
+.mo-card figcaption span{font-size:13.5px;color:rgba(255,255,255,.72);line-height:1.6}
+.mo-note{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:34px;color:rgba(255,255,255,.65);font-size:14px;text-align:center}
+.mo-note b{color:var(--gold-2)}
+
 @media(max-width:960px){
   .gal-grid{grid-template-columns:repeat(2,1fr)}
   .stats-grid{grid-template-columns:repeat(2,1fr)}
   .stat{border-bottom:1px solid rgba(255,255,255,.08)}
   .craft-grid,.steps{grid-template-columns:repeat(2,1fr)}
   .proj-grid{grid-template-columns:1fr}
+  .mo-grid{grid-template-columns:1fr}
+  .mo-card{max-width:430px;margin:0 auto;width:100%}
 }
 @media(max-width:640px){
   .nav-links{position:fixed;top:68px;left:0;right:0;background:var(--navy);flex-direction:column;align-items:stretch;gap:0;padding:12px 24px 20px;display:none;border-bottom:1px solid rgba(255,255,255,.1)}
@@ -243,6 +260,7 @@ a{color:inherit;text-decoration:none}
       <ul class="nav-links" id="navLinks">
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#craft">Craft</a></li>
+        <li><a href="#makingof">Making of</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#process">Process</a></li>
         <li><a class="nav-cta" href="#quote">Commission a Mural</a></li>
@@ -333,6 +351,46 @@ a{color:inherit;text-decoration:none}
       <div class="craft-card"><div class="ico">🧱</div><h3>Installer Friendly</h3><p>Mesh-backed sheets and a numbered installation map make professional installation straightforward.</p></div>
       <div class="craft-card"><div class="ico">📦</div><h3>Export-Ready Packing</h3><p>Secure crating and anti-vibration protection for worldwide shipping.</p></div>
     </div>
+  </div>
+</section>
+
+<section class="section makingof" id="makingof">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">In the Workshop</div>
+      <h2>How a Mosaic Work Is Created</h2>
+      <p>Watch master craftsmen bring a mural to life — every tessera cut, placed and finished by hand in our Foshan studio.</p>
+    </div>
+    <div class="mo-grid">
+      <figure class="mo-card">
+        <div class="mo-video">
+          <video controls preload="metadata" playsinline poster="videos/make_cut.jpg">
+            <source src="videos/make_cut.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <figcaption><b>01 · Cutting by Hand</b><span>Each tessera is selected and nipped to shape — the artisan's eye guides every cut.</span></figcaption>
+      </figure>
+      <figure class="mo-card">
+        <div class="mo-video">
+          <video controls preload="metadata" playsinline poster="videos/make_place.jpg">
+            <source src="videos/make_place.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <figcaption><b>02 · Placing Piece by Piece</b><span>Colour by colour, tessera by tessera — the artwork grows across the worktable.</span></figcaption>
+      </figure>
+      <figure class="mo-card">
+        <div class="mo-video">
+          <video controls preload="metadata" playsinline poster="videos/make_set.jpg">
+            <source src="videos/make_set.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <figcaption><b>03 · Setting &amp; Finishing</b><span>Pieces bed into adhesive and grout — a permanent, seamless work of art.</span></figcaption>
+      </figure>
+    </div>
+    <p class="mo-note">▶ &nbsp;Real production footage from the Art Mosaic Factory workshop — <b>send us your image and watch your own mural being made</b>.</p>
   </div>
 </section>
 
