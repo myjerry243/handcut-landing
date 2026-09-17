@@ -131,6 +131,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default="http://www.artmosaicfactory.com")
     ap.add_argument("--file", default=None)
+    ap.add_argument("--local", action="store_true",
+                    help="图片体积从本地磁盘读取（离线核对改动效果用）")
     args = ap.parse_args()
 
     if args.file:
@@ -184,9 +186,15 @@ def main() -> int:
     missing_alt, lazy, dims, broken, heavy = [], 0, 0, [], []
     for img in p.imgs:
         src_ = img.get("src") or img.get("data-src") or ""
-        if not src_.startswith("http"):
-            src_ = args.base + "/" + src_.lstrip("./")
-        code, blob = fetch(src_)
+        if not src_:
+            continue                                   # lightbox 占位图（src=""），不计入
+        if args.local:
+            local_path = ROOT / src_.lstrip("./")
+            code, blob = ((200, local_path.read_bytes()) if local_path.is_file() else (404, b""))
+        else:
+            if not src_.startswith("http"):
+                src_ = args.base + "/" + src_.lstrip("./")
+            code, blob = fetch(src_)
         size = len(blob)
         total_img += size
         if code != 200:
@@ -207,6 +215,14 @@ def main() -> int:
     chk("IM06", "单图 ≤200KB", not heavy, f"超标 {len(heavy)} 张" + (f"：{heavy[0]}" if heavy else ""), "High")
     chk("IM03", "现代格式/响应式", any("srcset" in i for i in p.imgs),
         "有 srcset" if any("srcset" in i for i in p.imgs) else "无 srcset（单页站可接受，但首图建议加）", "Medium")
+
+    # 响应式交付核对：<picture>/srcset 覆盖情况
+    html_full = html.decode("utf-8", "replace")
+    pics = html_full.count("<picture>")
+    prints = len(re.findall(r"srcset=", html_full))
+    hero_set = "image-set" in html_full
+    chk("IM05", "响应式图片 srcset/picture", pics >= n - 1,
+        f"picture {pics} 个 / srcset {prints} 处 / 首图 image-set {'有' if hero_set else '无'}", "Medium")
 
     # 体积与资源
     print()

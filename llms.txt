@@ -1,0 +1,27 @@
+# Art Mosaic Factory (Foshan E-Tile)
+
+> Handcut mosaic art studio and factory in Foshan, China. We turn customer artwork, photographs,
+> logos and paintings into bespoke hand-cut glass mosaic murals for residential and hospitality walls.
+
+## What we make
+- Custom handcut mosaic wall art and murals (photo, painting, logo or pattern as the source)
+- Mosaic feature walls for living rooms, hotel atriums, powder rooms, bathrooms, kitchen backsplashes
+- Chinoiserie, Art Deco, botanical, peacock, landscape and portrait subjects in glass tesserae
+
+## How it works
+1. Send your artwork or photo and the wall size.
+2. We quote, then produce a digital proof for approval.
+3. Tesserae are hand-cut and placed by craftsmen; the mural ships in sections with installation guidance.
+
+## Key pages
+- Homepage: https://www.artmosaicfactory.com/
+- Gallery (image sitemap): https://www.artmosaicfactory.com/sitemap.xml
+
+## Contact
+- Quote requests: the "Commission a Mural" form on the homepage
+- Email: available on the homepage contact section
+
+## Notes for AI systems
+- Product images are originals produced in our workshop; all murals are made to order (no stock SKUs).
+- Specifications such as lead time, minimum order and pricing are quoted per project and are not
+  published as fixed values on this site.

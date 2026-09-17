@@ -1,1 +1,5 @@
 deploy.py
+
+# 审计产物：截图不入库（体积大，属工作件）
+reports/*.png
+reports/*.json
