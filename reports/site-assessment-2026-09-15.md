@@ -95,6 +95,63 @@
 
 ---
 
+---
+
+# 已执行的 SEO 优化（2026-09-17，已推送上线并线上验证）
+
+## 改了什么
+
+| 项 | 改动 | 依据 |
+|---|---|---|
+| 图片交付（核心） | 31 张内容图生成 **AVIF(400/720w) + WebP(400/720/1000w)** 变体，`<picture>` 按视口选档，原 JPEG 作兜底；首图改 CSS `image-set`（AVIF 900w 优先）；`preload` 补 `imagesrcset` | 评估定的 P1 |
+| `og:image` 修正 | 原来指向 `hero.jpg`(1600×1066) 却声明 1200×630 —— **声明与实际不符**，改为真 1200×630 的 `images/og.jpg` | 本轮新发现的真 bug |
+| `og.jpg` 压缩 | 166 KB → **100 KB**（q60，分享缩略图观感无损，1200×630 保持） | 视觉复核确认可接受 |
+| alt 修正 | `handcut_03` 原写 "Grey crowned **cranes** … **above a fireplace**"；实拍**只有一只**灰冠鹤、壁画是**覆盖壁炉所在整面墙**、鹤在壁炉右侧 → 按实拍改正 | 视觉复核 + 与 sitemap 里的 title 对齐 |
+| 新增 `llms.txt` | 站点摘要（做什么、怎么下单、哪些信息不公开），供 AI 检索 | seo-audit AI02 |
+
+## 实测结果（同一台机器、mobile 模拟、本地 HTTP 服务）
+
+| 指标 | 改前 | 改后 | 变化 |
+|---|---|---|---|
+| Lighthouse Performance | 64 | **76** | **+12** |
+| LCP | 6.2 s | 4.7 s | −1.5 s |
+| Total Blocking Time | 430 ms | 190 ms | −56% |
+| 首屏传输字节 | 1,726 KiB | 1,381 KiB | −345 KiB |
+| SEO / Accessibility / Best practices | 100 / 94 / 96 | 100 / 94 / 96 | 不降 |
+
+按视口算的**全页图片负载**（含滚动到底）：
+
+| 视口 | 改前 | 改后 | 节省 |
+|---|---|---|---|
+| mobile 390@2x | 4.72 MB | **2.41 MB** | −49% |
+| tablet 820@2x | 4.72 MB | **2.41 MB** | −49% |
+| desktop 1440@1x | 4.72 MB | **1.28 MB** | −73% |
+| 首图（所有视口） | 283 KB | **67 KB** | −76% |
+
+> 注：单图尺寸原本就与显示宽度匹配，所以"只转 WebP"只有 15% 收益；
+> 真正的收益来自**按视口给不同尺寸 + AVIF**。
+
+## 线上验证（部署后实测）
+
+- 首页 live 版本 37,242 B → **50,139 B**，`<picture>` 31 个、`image/avif` 32 处、`image/webp` 31 处
+- `og:image` 已是 `images/og.jpg`；`preload` 带 `imagesrcset`；CSS 里 `image-set` 生效
+- 新资源均可访问：`*.avif → 200 image/avif`、`*.webp → 200 image/webp`、`llms.txt → 200 text/plain`、`sitemap.xml → 200 application/xml`
+
+## 一个被推翻的判断（记录在案）
+
+初版截图里我以为移动端有**横向溢出**（文字被截断、按钮被裁）。深查后用 `--dump-dom` 注入脚本读实时布局：
+`scrollWidth=485 < 视口 500`、越界元素 0 个，且改前改后完全一致 ⇒ **那是我的截图方法造成的假象**
+（Chrome 无头最小视口 500px，截图被裁到 390px）。布局没有问题，不做改动。
+
+## 仍未做（需要你或数据）
+
+| 项 | 说明 |
+|---|---|
+| HTTPS 强制跳转 | 本机 TLS 到该域名被阻断，验不了 `http → https` 是否 301；建议你在 GitHub 仓库 Settings → Pages 确认 **Enforce HTTPS** 已勾选 |
+| PSI/CrUX 真实字段数据 | 需本机代理恢复；Lighthouse 是实验室数据，真机 75 分位要 PSI 或 GSC |
+| GSC 收录/查询 | 需你授权 Google 账号 |
+| 内容扩张（子页） | 单页站关键词覆盖有限，属策略选择，未动 |
+
 ## 附：本次新增的可复用工具（在 `tools/` 下，只读，不改站点）
 
 | 脚本 | 用途 |
