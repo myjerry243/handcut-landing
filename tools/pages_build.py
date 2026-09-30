@@ -243,7 +243,14 @@ a.gal-card{display:block}
 
 # ------------------------------------------------------------------- helpers
 def esc(s):
-    return html.escape(s, quote=False)
+    """HTML text/attribute escape.
+
+    Normalises pre-existing entities to real Unicode characters first, then
+    escapes. Without the unescape step, a source string containing '&mdash;'
+    or '&amp;' would be double-escaped into '&amp;mdash;' and render literally
+    in <title>, meta content and alt attributes.
+    """
+    return html.escape(html.unescape(s), quote=True)
 
 def page(slug, title, desc, h1, lede, body, schema_extra=None, hero_cta=True):
     url = DOMAIN + "/" + (slug.strip("/") + "/" if slug.strip("/") else "")
@@ -370,8 +377,9 @@ def rel_section(title, links, intro=None):
 
 FAQ_SCHEMA = lambda items: {
     "@context": "https://schema.org", "@type": "FAQPage",
-    "mainEntity": [{"@type": "Question", "name": q,
-                    "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", a)}}
+    "mainEntity": [{"@type": "Question", "name": html.unescape(q),
+                    "acceptedAnswer": {"@type": "Answer",
+                                       "text": html.unescape(re.sub(r"<[^>]+>", "", a))}}
                    for q, a in items],
 }
 
@@ -387,6 +395,11 @@ SERVICE_SCHEMA = lambda name, desc, url, img: {
 # --------------------------------------------------------------- read assets
 BASE_CSS = re.search(r"<style>([\s\S]*?)</style>",
                      io.open(os.path.join(SITE, "index.html"), encoding="utf-8").read()).group(1)
+# index.html already carries the subpage CSS block (added by homepage_patch.py).
+# Strip it here so page() appends EXTRA_CSS exactly once instead of twice.
+MARK = "/* --- subpage components --- */"
+if MARK in BASE_CSS:
+    BASE_CSS = BASE_CSS.split(MARK)[0].rstrip()
 
 MAN = json.load(io.open(os.path.join(SITE, "images", "artmurals", "manifest.json"), encoding="utf-8"))
 
@@ -1024,7 +1037,7 @@ PAGES.append(dict(
  lede="Everything clients ask us before commissioning &mdash; cost, lead times, shipping, wet areas, installation, cleaning and repairs. No sales padding; if something depends on your project we say so.",
  body=faq_section("Common questions", FAQ_ALL,
    "Ask us anything that is not covered here and we will answer it directly."),
- schema_extra=[FAQ_SCHEMA([(q, re.sub(r"<[^>]+>", "", a)) for q, a in FAQ_ALL])],
+ schema_extra=[FAQ_SCHEMA(FAQ_ALL)],
 ))
 
 # ------------------------------------------------------- 14. about
@@ -1230,15 +1243,15 @@ for idx, m in enumerate(MAN):
     )
     PAGES.append(dict(
         slug=slug,
-        title="%s &mdash; Handcut Mosaic Mural | Art Mosaic Factory" % m["en"].replace("&amp;", "&"),
-        desc="%s. Handcut in glass and stone, made to your wall dimensions. Free proof and fixed quote from our Foshan mosaic workshop." % m["desc_en"].replace("&amp;", "&")[:150],
+        title="%s &mdash; Handcut Mosaic Mural | Art Mosaic Factory" % html.unescape(m["en"]),
+        desc="%s. Handcut in glass and stone, made to your wall dimensions. Free proof and fixed quote from our Foshan mosaic workshop." % html.unescape(m["desc_en"])[:150],
         h1=m["en"],
         lede="%s &mdash; a handcut mosaic design from our collection, adaptable in size, format and palette to suit your wall." % m["desc_en"],
         body=body,
         schema_extra=[{
           "@context": "https://schema.org", "@type": "CreativeWork",
-          "name": m["en"].replace("&amp;", "&"),
-          "description": m["desc_en"].replace("&amp;", "&"),
+          "name": html.unescape(m["en"]),
+          "description": html.unescape(m["desc_en"]),
           "image": DOMAIN + "/images/artmurals/" + m["file"],
           "creator": {"@type": "Organization", "@id": DOMAIN + "/#organization"},
           "isPartOf": {"@id": DOMAIN + "/mosaic-murals/"},
