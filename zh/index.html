@@ -15,7 +15,7 @@
 <meta property="og:title" content="手工镶嵌艺术壁画 | Art Mosaic Factory">
 <meta property="og:description" content="定制马赛克艺术墙与手工镶嵌壁画 — 每一颗马赛克均由资深匠人手工剪料、逐颗贴片。">
 <meta property="og:url" content="https://www.artmosaicfactory.com/zh/">
-<meta property="og:image" content="https://www.artmosaicfactory.com/images/hero.jpg">
+<meta property="og:image" content="https://www.artmosaicfactory.com/images/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
@@ -49,7 +49,7 @@
     "telephone": "+86-138-2778-0690",
     "contactType": "sales",
     "email": "tinafs618@gmail.com",
-    "availableLanguage": ["Chinese", "English"]
+    "availableLanguage": ["English", "Chinese"]
   },
   "sameAs": ["https://wa.me/8613827780690"]
 }
@@ -58,7 +58,7 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://www.artmosaicfactory.com/zh/#website",
+  "@id": "https://www.artmosaicfactory.com/#website",
   "url": "https://www.artmosaicfactory.com/",
   "name": "Art Mosaic Factory",
   "publisher": { "@id": "https://www.artmosaicfactory.com/zh/#organization" },
@@ -69,10 +69,10 @@
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://www.artmosaicfactory.com/zh/#webpage",
+  "@id": "https://www.artmosaicfactory.com/#webpage",
   "url": "https://www.artmosaicfactory.com/",
   "name": "手工镶嵌艺术壁画 | Art Mosaic Factory",
-  "isPartOf": { "@id": "https://www.artmosaicfactory.com/zh/#website" },
+  "isPartOf": { "@id": "https://www.artmosaicfactory.com/#website" },
   "about": { "@id": "https://www.artmosaicfactory.com/zh/#organization" },
   "inLanguage": "zh-CN",
   "description": "定制马赛克艺术墙与手工镶嵌壁画 — 每一颗马赛克均由资深匠人手工剪料、逐颗贴片。"
@@ -81,7 +81,7 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230d1b2a'/%3E%3Cpath d='M4 4h8v8H4zM12 4h8v8h-8zM20 4h8v8h-8zM4 12h8v8H4zM12 12h8v8h-8zM20 12h8v8h-8zM4 20h8v8H4zM12 20h8v8h-8zM20 20h8v8h-8z' fill='%23c9a227'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="image" href="../images/hero.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="../images/webp/hero-1600.webp" fetchpriority="high" imagesrcset="../images/webp/hero-900.webp 900w, ../images/webp/hero-1600.webp 1600w" imagesizes="100vw">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -113,11 +113,10 @@ a{color:inherit;text-decoration:none}
 .nav-links a:hover{color:var(--gold-2)}
 .nav-cta{background:var(--gold);color:var(--navy)!important;font-weight:700;padding:10px 20px;border-radius:8px}
 .nav-cta:hover{background:var(--gold-2);color:var(--navy)!important}
-.nav-lang{border:1px solid rgba(255,255,255,.35);border-radius:6px;padding:6px 11px!important;font-size:13px!important}
 .nav-toggle{display:none;background:none;border:none;color:#fff;font-size:24px;cursor:pointer}
 
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;color:#fff;overflow:hidden}
-.hero-bg{position:absolute;inset:0;background:url('../images/hero.jpg') center/cover no-repeat}
+.hero-bg{position:absolute;inset:0;background:url('../images/hero.jpg') center/cover no-repeat;background-image:image-set(url('../images/webp/hero-900.webp') 1x,url('../images/webp/hero-1600.webp') 2x);background-image:image-set(url('../images/webp/hero-900.avif') type('image/avif') 1x,url('../images/webp/hero-900.webp') 1x,url('../images/webp/hero-1600.webp') 2x)}
 .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(7,20,40,.85) 0%,rgba(7,20,40,.5) 50%,rgba(7,20,40,.1) 100%)}
 .hero-inner{position:relative;z-index:2;max-width:680px;padding:120px 24px 90px}
 .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold-2);margin-bottom:22px}
@@ -251,6 +250,7 @@ a{color:inherit;text-decoration:none}
   .hero-inner{padding-top:110px}
 }
 .artmurals{background:#fff;border-top:1px solid var(--line)}
+.nav-lang{border:1px solid rgba(255,255,255,.35);border-radius:6px;padding:6px 11px!important;font-size:13px!important}
 </style>
 </head>
 <body>
@@ -282,7 +282,7 @@ a{color:inherit;text-decoration:none}
   <div class="hero-inner">
     <span class="eyebrow">手工镶嵌艺术</span>
     <h1>手工镶嵌艺术<br>一凿一贴，<em>全凭手艺</em></h1>
-    <p>按单定制的手工镶嵌艺术墙。您专属壁画上的每一颗马赛克，都由资深匠人手工剪料、逐颗贴片完成——只需提供一张照片、一幅画作或一个 Logo，我们就能把它变成您墙面上一件独一无二的镶嵌艺术作品。</p>
+    <p>Custom mosaic wall art, handcrafted to order. Every tessera of your bespoke handcut mosaic mural is cut and placed by master craftsmen — send a photo, painting or logo, and we turn it into a one-of-a-kind mosaic art installation for your wall.</p>
     <div class="hero-ctas">
       <a class="btn btn-gold" href="#gallery">浏览图库 ↓</a>
       <a class="btn btn-ghost" href="#quote">定制壁画</a>
@@ -307,40 +307,41 @@ a{color:inherit;text-decoration:none}
     <div class="section-head">
       <div class="kicker">作品系列</div>
       <h2>手工镶嵌艺术壁画系列</h2>
-      <p>涵盖各种风格的手工镶嵌艺术——古典青花、写意风景、花卉植物，以及按需定制的壁画、厨卫 backsplash 与主题墙设计。每一幅定制马赛克都是独此一件的手工作品，尺寸按您的墙面量身定做。</p>
+      <p>涵盖各种风格的手工镶嵌艺术—— classical blue-and-white, impressionist landscapes, florals, bespoke mosaic murals, backsplash and feature-wall designs. Each custom mosaic is a unique handcrafted work, scaled to your wall.</p>
     </div>
     <div class="gal-grid">
-      <figure class="gal-card"><img src="../images/gallery/handcut_01.jpg" width="700" height="1244" alt="青花花卉与飞鸟手工镶嵌壁画" loading="lazy"><figcaption>青花花卉与飞鸟</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_02.jpg" width="700" height="466" alt="欧洲运河风景手工镶嵌壁画" loading="lazy"><figcaption>欧洲运河风景</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_03.jpg" width="612" height="840" alt="豪华客厅壁炉上方灰冠鹤与植物丛树手工镶嵌壁画" loading="lazy"><figcaption>灰冠鹤与丛树</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_04.jpg" width="700" height="1048" alt="金心白花手工镶嵌壁画" loading="lazy"><figcaption>白花与金</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_05.jpg" width="666" height="827" alt="海滨风格客厅沙发上方深蓝、绿松石与金色海浪玻璃马赛克墙" loading="lazy"><figcaption>海浪</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_06.jpg" width="700" height="1243" alt="马赛克匠人用钳子手工剪裁金色玻璃颗粒、拼装放射状图案" loading="lazy"><figcaption>匠人之手</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_07.jpg" width="576" height="835" alt="独立浴缸上方中式风格蓝灰凤头鹦鹉栖于花枝马赛克壁画" loading="lazy"><figcaption>凤头鹦鹉与花枝</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_08.jpg" width="700" height="1514" alt="豪华 SPA 浴室金琥珀与米色玻璃竹叶马赛克墙" loading="lazy"><figcaption>金色竹影</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_09.jpg" width="585" height="769" alt="桃色中式风格花树、飞鸟与牡丹马赛克画板" loading="lazy"><figcaption>花树与飞鸟</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_10.jpg" width="621" height="814" alt="现代浴室雕塑感大理石浴缸后方超大白色雏菊马赛克主题墙" loading="lazy"><figcaption>白色雏菊</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_11.jpg" width="700" height="700" alt="深色豪华酒吧内黑底白色玉兰花马赛克壁画" loading="lazy"><figcaption>墨底玉兰</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_12.jpg" width="665" height="838" alt="豪华浴室独立浴缸上方蓝、青绿与金色孔雀马赛克艺术墙" loading="lazy"><figcaption>蓝金孔雀</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_14.jpg" width="700" height="933" alt="华丽客厅热带植物玻璃马赛克壁画，配鹦鹉与丛林叶片" loading="lazy"><figcaption>热带丛林</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_15.jpg" width="667" height="830" alt="豪华客厅装饰艺术风格黑金白豹行进马赛克壁画" loading="lazy"><figcaption>装饰艺术花豹</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_16.jpg" width="700" height="1263" alt="中式风格客厅林中湖面双白天鹅手工镶嵌壁画" loading="lazy"><figcaption>湖上双鹅</figcaption></figure>
-      <figure class="gal-card"><img src="../images/backsplash/bs_01_tropical.jpg" width="900" height="900" alt="热带叶片马赛克主题墙" loading="lazy"><figcaption>热带叶片</figcaption></figure>
-      <figure class="gal-card"><img src="../images/backsplash/bs_02_peacock.jpg" width="1400" height="1050" alt="白孔雀与玉兰马赛克墙" loading="lazy"><figcaption>白孔雀与玉兰</figcaption></figure>
-      <figure class="gal-card"><img src="../images/backsplash/bs_03_lotus.jpg" width="900" height="1600" alt="荷塘与飞鸟马赛克壁画" loading="lazy"><figcaption>荷塘与飞鸟</figcaption></figure>
-      <figure class="gal-card"><img src="../images/backsplash/bs_04_rose.jpg" width="800" height="1600" alt="经典玫瑰马赛克 backsplash" loading="lazy"><figcaption>经典玫瑰</figcaption></figure>
-      <figure class="gal-card"><img src="../images/backsplash/bs_05_leopard.jpg" width="900" height="1171" alt="花间花豹马赛克艺术" loading="lazy"><figcaption>花间花豹</figcaption></figure>
-      <figure class="gal-card"><img src="../images/backsplash/bs_06_phoenix.jpg" width="900" height="1200" alt="凤凰马赛克主题墙" loading="lazy"><figcaption>凤凰壁画</figcaption></figure>
-      <figure class="gal-card"><img src="../images/backsplash/bs_07_artnouveau.jpg" width="900" height="1080" alt="新艺术风格马赛克卫浴空间" loading="lazy"><figcaption>新艺术风格卫浴</figcaption></figure>
-      <figure class="gal-card"><img src="../images/backsplash/bs_08_mothereofpearl.jpg" width="900" height="1200" alt="贝母植物马赛克" loading="lazy"><figcaption>贝母植物纹样</figcaption></figure>
-      <figure class="gal-card"><img src="../images/backsplash/bs_09_scaleblue.jpg" width="900" height="1200" alt="鳞纹蓝色马赛克浴缸墙" loading="lazy"><figcaption>鳞纹蓝 backsplash</figcaption></figure>
-      <figure class="gal-card"><img src="../images/backsplash/bs_10_whitearc.jpg" width="678" height="959" alt="白色花卉拱形马赛克墙" loading="lazy"><figcaption>白色花卉拱形</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_17.jpg" width="1400" height="644" alt="热带火烈鸟马赛克会议室主题墙" loading="lazy"><figcaption>火烈鸟会议室</figcaption></figure>
-      <figure class="gal-card"><img src="../images/gallery/handcut_18.jpg" width="1000" height="1129" alt="阳光走廊热带植物马赛克" loading="lazy"><figcaption>阳光走廊植物墙</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_01-400.avif 400w, ../images/webp/handcut_01-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_01-400.webp 400w, ../images/webp/handcut_01-720.webp 720w, ../images/webp/handcut_01-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_01.jpg" width="700" height="1244" alt="青花花卉与飞鸟手工镶嵌壁画" loading="lazy"></picture><figcaption>青花花卉与飞鸟</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_02-400.avif 400w, ../images/webp/handcut_02-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_02-400.webp 400w, ../images/webp/handcut_02-720.webp 720w, ../images/webp/handcut_02-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_02.jpg" width="700" height="466" alt="欧洲运河风景手工镶嵌壁画" loading="lazy"></picture><figcaption>欧洲运河风景</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_03-400.avif 400w, ../images/webp/handcut_03-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_03-400.webp 400w, ../images/webp/handcut_03-720.webp 720w, ../images/webp/handcut_03-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_03.jpg" width="612" height="840" alt="豪华客厅壁炉上方灰冠鹤与植物丛树手工镶嵌壁画" loading="lazy"></picture><figcaption>灰冠鹤与丛树</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_04-400.avif 400w, ../images/webp/handcut_04-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_04-400.webp 400w, ../images/webp/handcut_04-720.webp 720w, ../images/webp/handcut_04-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_04.jpg" width="700" height="1048" alt="金心白花手工镶嵌壁画" loading="lazy"></picture><figcaption>白花与金</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_05-400.avif 400w, ../images/webp/handcut_05-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_05-400.webp 400w, ../images/webp/handcut_05-720.webp 720w, ../images/webp/handcut_05-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_05.jpg" width="666" height="827" alt="海滨风格客厅沙发上方深蓝、绿松石与金色海浪玻璃马赛克墙" loading="lazy"></picture><figcaption>海浪</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_06-400.avif 400w, ../images/webp/handcut_06-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_06-400.webp 400w, ../images/webp/handcut_06-720.webp 720w, ../images/webp/handcut_06-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_06.jpg" width="700" height="1243" alt="马赛克匠人用钳子手工剪裁金色玻璃颗粒、拼装放射状图案" loading="lazy"></picture><figcaption>匠人之手</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_07-400.avif 400w, ../images/webp/handcut_07-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_07-400.webp 400w, ../images/webp/handcut_07-720.webp 720w, ../images/webp/handcut_07-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_07.jpg" width="576" height="835" alt="独立浴缸上方中式风格蓝灰凤头鹦鹉栖于花枝马赛克壁画" loading="lazy"></picture><figcaption>凤头鹦鹉与花枝</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_08-400.avif 400w, ../images/webp/handcut_08-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_08-400.webp 400w, ../images/webp/handcut_08-720.webp 720w, ../images/webp/handcut_08-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_08.jpg" width="700" height="1514" alt="豪华 SPA 浴室金琥珀与米色玻璃竹叶马赛克墙" loading="lazy"></picture><figcaption>金色竹影</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_09-400.avif 400w, ../images/webp/handcut_09-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_09-400.webp 400w, ../images/webp/handcut_09-720.webp 720w, ../images/webp/handcut_09-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_09.jpg" width="585" height="769" alt="桃色中式风格花树、飞鸟与牡丹马赛克画板" loading="lazy"></picture><figcaption>花树与飞鸟</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_10-400.avif 400w, ../images/webp/handcut_10-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_10-400.webp 400w, ../images/webp/handcut_10-720.webp 720w, ../images/webp/handcut_10-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_10.jpg" width="621" height="814" alt="现代浴室雕塑感大理石浴缸后方超大白色雏菊马赛克主题墙" loading="lazy"></picture><figcaption>白色雏菊</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_11-400.avif 400w, ../images/webp/handcut_11-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_11-400.webp 400w, ../images/webp/handcut_11-720.webp 720w, ../images/webp/handcut_11-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_11.jpg" width="700" height="700" alt="深色豪华酒吧内黑底白色玉兰花马赛克壁画" loading="lazy"></picture><figcaption>墨底玉兰</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_12-400.avif 400w, ../images/webp/handcut_12-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_12-400.webp 400w, ../images/webp/handcut_12-720.webp 720w, ../images/webp/handcut_12-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_12.jpg" width="665" height="838" alt="豪华浴室独立浴缸上方蓝、青绿与金色孔雀马赛克艺术墙" loading="lazy"></picture><figcaption>蓝金孔雀</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_14-400.avif 400w, ../images/webp/handcut_14-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_14-400.webp 400w, ../images/webp/handcut_14-720.webp 720w, ../images/webp/handcut_14-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_14.jpg" width="700" height="933" alt="华丽客厅热带植物玻璃马赛克壁画，配鹦鹉与丛林叶片" loading="lazy"></picture><figcaption>热带丛林</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_15-400.avif 400w, ../images/webp/handcut_15-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_15-400.webp 400w, ../images/webp/handcut_15-720.webp 720w, ../images/webp/handcut_15-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_15.jpg" width="667" height="830" alt="豪华客厅装饰艺术风格黑金白豹行进马赛克壁画" loading="lazy"></picture><figcaption>装饰艺术花豹</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_16-400.avif 400w, ../images/webp/handcut_16-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_16-400.webp 400w, ../images/webp/handcut_16-720.webp 720w, ../images/webp/handcut_16-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_16.jpg" width="700" height="1263" alt="中式风格客厅林中湖面双白天鹅手工镶嵌壁画" loading="lazy"></picture><figcaption>湖上双鹅</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/bs_01_tropical-400.avif 400w, ../images/webp/bs_01_tropical-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/bs_01_tropical-400.webp 400w, ../images/webp/bs_01_tropical-720.webp 720w, ../images/webp/bs_01_tropical-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/backsplash/bs_01_tropical.jpg" width="900" height="900" alt="热带叶片马赛克主题墙" loading="lazy"></picture><figcaption>热带叶片</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/bs_02_peacock-400.avif 400w, ../images/webp/bs_02_peacock-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/bs_02_peacock-400.webp 400w, ../images/webp/bs_02_peacock-720.webp 720w, ../images/webp/bs_02_peacock-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/backsplash/bs_02_peacock.jpg" width="1400" height="1050" alt="白孔雀与玉兰马赛克墙" loading="lazy"></picture><figcaption>白孔雀与玉兰</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/bs_03_lotus-400.avif 400w, ../images/webp/bs_03_lotus-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/bs_03_lotus-400.webp 400w, ../images/webp/bs_03_lotus-720.webp 720w, ../images/webp/bs_03_lotus-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/backsplash/bs_03_lotus.jpg" width="900" height="1600" alt="荷塘与飞鸟马赛克壁画" loading="lazy"></picture><figcaption>荷塘与飞鸟</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/bs_04_rose-400.avif 400w, ../images/webp/bs_04_rose-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/bs_04_rose-400.webp 400w, ../images/webp/bs_04_rose-720.webp 720w, ../images/webp/bs_04_rose-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/backsplash/bs_04_rose.jpg" width="800" height="1600" alt="经典玫瑰马赛克 backsplash" loading="lazy"></picture><figcaption>经典玫瑰</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/bs_05_leopard-400.avif 400w, ../images/webp/bs_05_leopard-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/bs_05_leopard-400.webp 400w, ../images/webp/bs_05_leopard-720.webp 720w, ../images/webp/bs_05_leopard-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/backsplash/bs_05_leopard.jpg" width="900" height="1171" alt="花间花豹马赛克艺术" loading="lazy"></picture><figcaption>花间花豹</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/bs_06_phoenix-400.avif 400w, ../images/webp/bs_06_phoenix-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/bs_06_phoenix-400.webp 400w, ../images/webp/bs_06_phoenix-720.webp 720w, ../images/webp/bs_06_phoenix-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/backsplash/bs_06_phoenix.jpg" width="900" height="1200" alt="凤凰马赛克主题墙" loading="lazy"></picture><figcaption>凤凰壁画</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/bs_07_artnouveau-400.avif 400w, ../images/webp/bs_07_artnouveau-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/bs_07_artnouveau-400.webp 400w, ../images/webp/bs_07_artnouveau-720.webp 720w, ../images/webp/bs_07_artnouveau-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/backsplash/bs_07_artnouveau.jpg" width="900" height="1080" alt="新艺术风格马赛克卫浴空间" loading="lazy"></picture><figcaption>新艺术风格卫浴</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/bs_08_mothereofpearl-400.avif 400w, ../images/webp/bs_08_mothereofpearl-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/bs_08_mothereofpearl-400.webp 400w, ../images/webp/bs_08_mothereofpearl-720.webp 720w, ../images/webp/bs_08_mothereofpearl-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/backsplash/bs_08_mothereofpearl.jpg" width="900" height="1200" alt="贝母植物马赛克" loading="lazy"></picture><figcaption>贝母植物纹样</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/bs_09_scaleblue-400.avif 400w, ../images/webp/bs_09_scaleblue-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/bs_09_scaleblue-400.webp 400w, ../images/webp/bs_09_scaleblue-720.webp 720w, ../images/webp/bs_09_scaleblue-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/backsplash/bs_09_scaleblue.jpg" width="900" height="1200" alt="鳞纹蓝色马赛克浴缸墙" loading="lazy"></picture><figcaption>鳞纹蓝 backsplash</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/bs_10_whitearc-400.avif 400w, ../images/webp/bs_10_whitearc-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/bs_10_whitearc-400.webp 400w, ../images/webp/bs_10_whitearc-720.webp 720w, ../images/webp/bs_10_whitearc-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/backsplash/bs_10_whitearc.jpg" width="678" height="959" alt="白色花卉拱形马赛克墙" loading="lazy"></picture><figcaption>白色花卉拱形</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_17-400.avif 400w, ../images/webp/handcut_17-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_17-400.webp 400w, ../images/webp/handcut_17-720.webp 720w, ../images/webp/handcut_17-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_17.jpg" width="1400" height="644" alt="热带火烈鸟马赛克会议室主题墙" loading="lazy"></picture><figcaption>火烈鸟会议室</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/avif" srcset="../images/webp/handcut_18-400.avif 400w, ../images/webp/handcut_18-720.avif 720w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><source type="image/webp" srcset="../images/webp/handcut_18-400.webp 400w, ../images/webp/handcut_18-720.webp 720w, ../images/webp/handcut_18-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/gallery/handcut_18.jpg" width="1000" height="1129" alt="阳光走廊热带植物马赛克" loading="lazy"></picture><figcaption>阳光走廊植物墙</figcaption></figure>
     </div>
-    <p class="gal-note"><b>想要不一样的画面？</b>把任何图片发给我们——全家福、品牌 Logo 或名画名作——我们都能把它手工镶嵌成一幅马赛克艺术品。</p>
+    <p class="gal-note"><b>想要不一样的画面？</b> 把任何图片发给我们——全家福、品牌 Logo 或名画名作——我们都能把它手工镶嵌成一幅马赛克艺术品。</p>
   </div>
 </section>
+
 
 
 
@@ -349,30 +350,16 @@ a{color:inherit;text-decoration:none}
     <div class="section-head">
       <div class="kicker">艺术壁画系列</div>
       <h2>艺术壁画 · 按单定制</h2>
-      <p>来自我们艺术壁画工作室的另一组作品——用于主题墙、地面、卫浴、玄关与酒店商业空间的手工镶嵌画板。每一件都按您的尺寸、配色与画面定制。</p>
+      <p>来自我们工作室的手工镶嵌艺术作品——古典圣像、植物画板、圆形花卉与醒目图形题材。每一件都按您的尺寸、配色与题材定制，可做成独立装框画板，也可直接镶嵌上墙。</p>
     </div>
     <div class="gal-grid">
-      <figure class="gal-card"><img src="../images/artmurals/am_01.jpg" width="946" height="1178" alt="金底拜占庭圣像镶嵌画板 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>拜占庭圣像马赛克</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_02.jpg" width="1400" height="1260" alt="餐桌后的锦鲤马赛克壁画 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>锦鲤壁画</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_03.jpg" width="1129" height="1400" alt="蓝白花卉马赛克浴室主题墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>蓝色花卉浴室墙</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_04.jpg" width="1383" height="1400" alt="圆形花鸟马赛克 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>圆形花鸟马赛克</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_05.jpg" width="1076" height="1400" alt="牡丹与丛林枝叶间的花豹 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>花豹与牡丹</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_06.jpg" width="451" height="892" alt="圣心虔诚主题马赛克画板 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>圣心马赛克板</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_07.jpg" width="736" height="1368" alt="灰底蓝色与黑色蝴蝶 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>蝶舞</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_08.jpg" width="1050" height="1400" alt="大宅会客厅凤凰马赛克壁画 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>大宅凤凰</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_09.jpg" width="1008" height="1400" alt="浴缸后的褐调植物马赛克墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>褐调植物浴室</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_10.jpg" width="647" height="1400" alt="热带阔叶与天堂鸟马赛克画板 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>热带阔叶马赛克板</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_11.jpg" width="1078" height="1363" alt="客厅拱形花枝马赛克壁画 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>拱形花枝壁画</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_12.jpg" width="1400" height="987" alt="石榴枝头与两只小鸟 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>石榴枝头双鸟</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_13.jpg" width="796" height="571" alt="风格化人物主题马赛克墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>人物主题墙</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_14.jpg" width="797" height="1400" alt="摩洛哥 zellige 马赛克水景墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>摩洛哥马赛克水景墙</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_15.jpg" width="1080" height="1072" alt="黄铜框弧形热带叶马赛克艺术墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>弧形热带叶艺术墙</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_16.jpg" width="1050" height="1400" alt="穹顶长廊几何拼花地面 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>几何拼花长廊</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_17.jpg" width="1105" height="1400" alt="大理石地面古典人物马赛克徽章 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>古典地面徽章</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_18.jpg" width="1050" height="1400" alt="热带棕榈风景马赛克壁画板 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>热带风景壁画</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_19.jpg" width="1050" height="1400" alt="超大白色百合马赛克艺术墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>白色百合艺术墙</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_20.jpg" width="1050" height="1400" alt="蓝底白色玉兰拱形马赛克 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>蓝底玉兰</figcaption></figure>
-      <figure class="gal-card"><img src="../images/artmurals/am_21.jpg" width="1050" height="1400" alt="红冠双鸡与红色花枝 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"><figcaption>双鸡花枝</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/webp" srcset="../images/webp/am_01-400.webp 400w, ../images/webp/am_01-720.webp 720w, ../images/webp/am_01-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/artmurals/am_01.jpg" width="946" height="1178" alt="金底拜占庭圣像镶嵌画板 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption>拜占庭圣像马赛克</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/webp" srcset="../images/webp/am_04-400.webp 400w, ../images/webp/am_04-720.webp 720w, ../images/webp/am_04-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/artmurals/am_04.jpg" width="1383" height="1400" alt="圆形花鸟马赛克 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption>圆形花鸟马赛克</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/webp" srcset="../images/webp/am_05-400.webp 400w, ../images/webp/am_05-720.webp 720w, ../images/webp/am_05-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/artmurals/am_05.jpg" width="1076" height="1400" alt="牡丹与丛林枝叶间的花豹 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption>花豹与牡丹</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/webp" srcset="../images/webp/am_06-400.webp 400w, ../images/webp/am_06-720.webp 720w, ../images/webp/am_06-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/artmurals/am_06.jpg" width="451" height="892" alt="圣心虔诚主题马赛克画板 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption>圣心马赛克板</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/webp" srcset="../images/webp/am_07-400.webp 400w, ../images/webp/am_07-720.webp 720w, ../images/webp/am_07-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/artmurals/am_07.jpg" width="736" height="1368" alt="灰底蓝色与黑色蝴蝶 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption>蝶舞</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/webp" srcset="../images/webp/am_10-400.webp 400w, ../images/webp/am_10-720.webp 720w, ../images/webp/am_10-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/artmurals/am_10.jpg" width="647" height="1400" alt="热带阔叶与天堂鸟马赛克画板 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption>热带阔叶马赛克板</figcaption></figure>
+      <figure class="gal-card"><picture><source type="image/webp" srcset="../images/webp/am_12-400.webp 400w, ../images/webp/am_12-720.webp 720w, ../images/webp/am_12-1000.webp 1000w" sizes="(max-width:640px) 92vw, (max-width:960px) 45vw, 380px"><img src="../images/artmurals/am_12.jpg" width="1400" height="987" alt="石榴枝头与两只小鸟 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption>石榴枝头双鸟</figcaption></figure>
     </div>
     <p class="gal-note"><b>心里已经有一面墙了？</b>把画面和墙面尺寸发给我们——24 小时内给您免费的排版方案与报价。</p>
   </div>
@@ -432,7 +419,7 @@ a{color:inherit;text-decoration:none}
         <figcaption><b>03 · 铺贴与修整</b><span>颗粒嵌入粘结剂与填缝，最终成为一幅永久、无缝的艺术作品。</span></figcaption>
       </figure>
     </div>
-    <p class="mo-note">▶ &nbsp;Art Mosaic Factory 车间实拍生产影像 — <b>把图片发给我们，您就能看到自己的壁画如何被制作出来</b>。</p>
+    <p class="mo-note">▶ &nbsp;Art Mosaic Factory 车间实拍生产影像 — <b>把图片发给我们，您就能看到自己的壁画如何被制作出来</b>.</p>
   </div>
 </section>
 
@@ -441,13 +428,27 @@ a{color:inherit;text-decoration:none}
     <div class="section-head">
       <div class="kicker">落地实景</div>
       <h2>让空间改头换面的壁画</h2>
-      <p>酒店中庭、客厅、卫浴空间到古典沙龙——Art Mosaic Factory 的定制马赛克壁画，已落地于全球各地的空间。</p>
+      <p>酒店中庭、客厅、卫浴空间到古典沙龙——Art Mosaic Factory 的定制马赛克壁画，落地于全球各地的空间。</p>
     </div>
     <div class="proj-grid">
-      <figure class="proj-card"><img src="../images/backsplash/bs_01_tropical.jpg" width="900" height="900" alt="热带叶片马赛克中庭主题墙" loading="lazy"><figcaption><b>酒店中庭主题墙</b><span>热带叶片马赛克与镜面水池，度假酒店大堂</span></figcaption></figure>
-      <figure class="proj-card"><img src="../images/backsplash/bs_06_phoenix.jpg" width="900" height="1200" alt="凤凰马赛克客厅背景墙" loading="lazy"><figcaption><b>客厅背景墙</b><span>凤凰主题大幅壁画，高端住宅</span></figcaption></figure>
-      <figure class="proj-card"><img src="../images/backsplash/bs_07_artnouveau.jpg" width="900" height="1080" alt="新艺术风格藤蔓马赛克卫浴空间" loading="lazy"><figcaption><b>卫浴空间</b><span>新艺术风格藤蔓马赛克，精品酒店</span></figcaption></figure>
-      <figure class="proj-card"><img src="../images/backsplash/bs_08_mothereofpearl.jpg" width="900" height="1200" alt="贝母植物马赛克古典会客厅" loading="lazy"><figcaption><b>古典会客厅</b><span>贝母植物纹样，法式沙龙</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/avif" srcset="../images/webp/bs_01_tropical-400.avif 400w, ../images/webp/bs_01_tropical-720.avif 720w" sizes="(max-width:960px) 92vw, 560px"><source type="image/webp" srcset="../images/webp/bs_01_tropical-400.webp 400w, ../images/webp/bs_01_tropical-720.webp 720w, ../images/webp/bs_01_tropical-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/backsplash/bs_01_tropical.jpg" width="900" height="900" alt="热带叶片马赛克主题墙" loading="lazy"></picture><figcaption><b>酒店中庭主题墙</b><span>热带叶片马赛克与镜面水池，度假酒店大堂</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/avif" srcset="../images/webp/bs_06_phoenix-400.avif 400w, ../images/webp/bs_06_phoenix-720.avif 720w" sizes="(max-width:960px) 92vw, 560px"><source type="image/webp" srcset="../images/webp/bs_06_phoenix-400.webp 400w, ../images/webp/bs_06_phoenix-720.webp 720w, ../images/webp/bs_06_phoenix-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/backsplash/bs_06_phoenix.jpg" width="900" height="1200" alt="凤凰马赛克主题墙" loading="lazy"></picture><figcaption><b>客厅背景墙</b><span>凤凰主题大幅壁画，高端住宅</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/avif" srcset="../images/webp/bs_07_artnouveau-400.avif 400w, ../images/webp/bs_07_artnouveau-720.avif 720w" sizes="(max-width:960px) 92vw, 560px"><source type="image/webp" srcset="../images/webp/bs_07_artnouveau-400.webp 400w, ../images/webp/bs_07_artnouveau-720.webp 720w, ../images/webp/bs_07_artnouveau-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/backsplash/bs_07_artnouveau.jpg" width="900" height="1080" alt="新艺术风格马赛克卫浴空间" loading="lazy"></picture><figcaption><b>卫浴空间</b><span>新艺术风格藤蔓马赛克，精品酒店</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/avif" srcset="../images/webp/bs_08_mothereofpearl-400.avif 400w, ../images/webp/bs_08_mothereofpearl-720.avif 720w" sizes="(max-width:960px) 92vw, 560px"><source type="image/webp" srcset="../images/webp/bs_08_mothereofpearl-400.webp 400w, ../images/webp/bs_08_mothereofpearl-720.webp 720w, ../images/webp/bs_08_mothereofpearl-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/backsplash/bs_08_mothereofpearl.jpg" width="900" height="1200" alt="贝母植物马赛克" loading="lazy"></picture><figcaption><b>古典会客厅</b><span>贝母植物纹样，法式沙龙</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_02-400.webp 400w, ../images/webp/am_02-720.webp 720w, ../images/webp/am_02-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_02.jpg" width="1400" height="1260" alt="餐桌后的锦鲤马赛克壁画 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>锦鲤壁画</b><span>餐桌后的锦鲤马赛克壁画</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_03-400.webp 400w, ../images/webp/am_03-720.webp 720w, ../images/webp/am_03-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_03.jpg" width="1129" height="1400" alt="蓝白花卉马赛克浴室主题墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>蓝色花卉浴室墙</b><span>蓝白花卉马赛克浴室主题墙</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_08-400.webp 400w, ../images/webp/am_08-720.webp 720w, ../images/webp/am_08-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_08.jpg" width="1050" height="1400" alt="大宅会客厅凤凰马赛克壁画 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>大宅凤凰</b><span>大宅会客厅凤凰马赛克壁画</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_09-400.webp 400w, ../images/webp/am_09-720.webp 720w, ../images/webp/am_09-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_09.jpg" width="1008" height="1400" alt="浴缸后的褐调植物马赛克墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>褐调植物浴室</b><span>浴缸后的褐调植物马赛克墙</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_11-400.webp 400w, ../images/webp/am_11-720.webp 720w, ../images/webp/am_11-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_11.jpg" width="1078" height="1363" alt="客厅拱形花枝马赛克壁画 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>拱形花枝壁画</b><span>客厅拱形花枝马赛克壁画</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_13-400.webp 400w, ../images/webp/am_13-720.webp 720w, ../images/webp/am_13-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_13.jpg" width="796" height="571" alt="风格化人物主题马赛克墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>人物主题墙</b><span>风格化人物主题马赛克墙</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_14-400.webp 400w, ../images/webp/am_14-720.webp 720w, ../images/webp/am_14-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_14.jpg" width="797" height="1400" alt="摩洛哥 zellige 马赛克水景墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>摩洛哥马赛克水景墙</b><span>摩洛哥 zellige 马赛克水景墙</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_15-400.webp 400w, ../images/webp/am_15-720.webp 720w, ../images/webp/am_15-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_15.jpg" width="1080" height="1072" alt="黄铜框弧形热带叶马赛克艺术墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>弧形热带叶艺术墙</b><span>黄铜框弧形热带叶马赛克艺术墙</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_16-400.webp 400w, ../images/webp/am_16-720.webp 720w, ../images/webp/am_16-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_16.jpg" width="1050" height="1400" alt="穹顶长廊几何拼花地面 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>几何拼花长廊</b><span>穹顶长廊几何拼花地面</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_17-400.webp 400w, ../images/webp/am_17-720.webp 720w, ../images/webp/am_17-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_17.jpg" width="1105" height="1400" alt="大理石地面古典人物马赛克徽章 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>古典地面徽章</b><span>大理石地面古典人物马赛克徽章</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_18-400.webp 400w, ../images/webp/am_18-720.webp 720w, ../images/webp/am_18-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_18.jpg" width="1050" height="1400" alt="热带棕榈风景马赛克壁画板 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>热带风景壁画</b><span>热带棕榈风景马赛克壁画板</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_19-400.webp 400w, ../images/webp/am_19-720.webp 720w, ../images/webp/am_19-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_19.jpg" width="1050" height="1400" alt="超大白色百合马赛克艺术墙 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>白色百合艺术墙</b><span>超大白色百合马赛克艺术墙</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_20-400.webp 400w, ../images/webp/am_20-720.webp 720w, ../images/webp/am_20-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_20.jpg" width="1050" height="1400" alt="蓝底白色玉兰拱形马赛克 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>蓝底玉兰</b><span>蓝底白色玉兰拱形马赛克</span></figcaption></figure>
+      <figure class="proj-card"><picture><source type="image/webp" srcset="../images/webp/am_21-400.webp 400w, ../images/webp/am_21-720.webp 720w, ../images/webp/am_21-1000.webp 1000w" sizes="(max-width:960px) 92vw, 560px"><img src="../images/artmurals/am_21.jpg" width="1050" height="1400" alt="红冠双鸡与红色花枝 — Art Mosaic Factory 手工镶嵌艺术壁画" loading="lazy"></picture><figcaption><b>双鸡花枝</b><span>红冠双鸡与红色花枝</span></figcaption></figure>
     </div>
   </div>
 </section>
@@ -485,7 +486,7 @@ a{color:inherit;text-decoration:none}
       <textarea name="message" rows="4" placeholder="请描述您的画面 — 题材、风格、材质、色彩偏好……"></textarea>
       <div class="f-actions">
         <button type="submit" class="btn btn-gold">提交询盘</button>
-        <a class="btn btn-wa" href="https://wa.me/8613827780690?text=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E5%AE%9A%E5%88%B6%E4%B8%80%E5%B9%85%E6%89%8B%E5%B7%A5%E9%95%B6%E5%B5%8C%E9%A9%AC%E8%B5%9B%E5%85%8B%E5%A3%81%E7%94%BB%E3%80%82" target="_blank" rel="noopener">WhatsApp +86 138 2778 0690</a>
+        <a class="btn btn-wa" href="https://wa.me/8613827780690?text=Hello%20Art%20Mosaic%20Factory%2C%20I%27d%20like%20to%20commission%20a%20handcut%20mosaic%20mural." target="_blank" rel="noopener">WhatsApp +86 138 2778 0690</a>
       </div>
       <div class="f-ok" id="fOk">✅ 询盘已提交！我们将在 24 小时内回复您。</div>
       <div class="f-err" id="fErr">⚠️ 提交失败——已为您打开邮件客户端并预填询盘内容，直接点发送即可，或通过 WhatsApp 联系我们。</div>
@@ -502,7 +503,7 @@ a{color:inherit;text-decoration:none}
           <span class="brand-mark"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
           <span class="brand-name">Art Mosaic Factory<em>佛山宜瓷砖 · 马赛克</em></span>
         </a>
-        <p style="margin-top:14px">14 年以上马赛克研发与生产经验。手工镶嵌艺术壁画、定制马赛克艺术墙、主题背景墙、泳池马赛克及工程壁画，服务全球项目。</p>
+        <p style="margin-top:14px">14 年以上马赛克研发与生产经验。 Handcut mosaic art murals, custom mosaic wall art, feature walls, pool mosaics and engineering murals for worldwide projects.</p>
       </div>
       <div>
         <h4>产品</h4>
