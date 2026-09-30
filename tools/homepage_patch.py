@@ -45,6 +45,7 @@ COLLS = [("handcut-mosaic-murals", "Handcut Mosaic Murals", "Every tessere cut a
          ("mosaic-bathroom-wall", "Bathroom Mosaics", "Wet-room artwork that lasts"),
          ("hotel-mosaic-art", "Hotel &amp; Hospitality", "Contract-grade FF&amp;E murals"),
          ("pool-mosaic-tiles", "Pool &amp; Spa Mosaics", "Frost-proof, chlorine-proof"),
+         ("mosaic-mural-manufacturer", "Factory &amp; Wholesale", "Trade, private label, OEM"),
          ("mosaic-mural-cost", "What It Costs", "How the price is actually built"),
          ("how-handcut-mosaic-murals-are-made", "How They Are Made", "Six stages, start to finish"),
          ("faq", "Questions &amp; Answers", "Cost, lead times, shipping, care"),

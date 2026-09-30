@@ -49,6 +49,7 @@ FOOT_COLS = [
         ("/mosaic-bathroom-wall/", "Bathroom Mosaics"),
         ("/hotel-mosaic-art/", "Hotel &amp; Hospitality"),
         ("/pool-mosaic-tiles/", "Pool Mosaics"),
+        ("/mosaic-mural-manufacturer/", "Factory &amp; Wholesale"),
     ]),
     ("Learn", [
         ("/how-handcut-mosaic-murals-are-made/", "How They Are Made"),
@@ -858,6 +859,69 @@ PAGES.append(dict(
 ))
 
 # ------------------------------------------------------- 10. cost
+CRUMBS["mosaic-mural-manufacturer"] = [(DOMAIN + "/", "Home")]
+PAGES.append(dict(
+ slug="mosaic-mural-manufacturer",
+ title="Mosaic Mural Manufacturer &amp; Factory in China &mdash; Wholesale &amp; Trade",
+ desc="We are the mosaic factory, not a reseller. Handcut mosaic murals manufactured in Foshan for importers, distributors, design studios and FF&amp;E contractors. Trade and private-label enquiries welcome.",
+ h1="Mosaic Mural Manufacturer &amp; Factory",
+ lede="Art Mosaic Factory is the art studio of Foshan E-Tile Building Material Co., Ltd. &mdash; fourteen years of mosaic production, and a workshop that cuts commissioned murals by hand. If you are sourcing rather than buying a single piece, this is the page for you.",
+ body=(sec("Factory-direct, not a trading company",
+   "<p>Most &ldquo;mosaic suppliers&rdquo; you will find online are resellers. They take your order, forward it to a workshop, add a margin, and step out of the way when something goes wrong. That model breaks down badly on commissioned work, because the person quoting you is not the person cutting your mosaic.</p>",
+   "<p>We are the manufacturer. The workshop that proofs your artwork is the workshop that cuts, sets, sections and crates it. That means three practical things for a buyer:</p>",
+   "<ul>"
+   "<li><b>The price has no middleman layer in it.</b> You are buying from the factory that does the work.</li>"
+   "<li><b>Production questions get real answers.</b> If a design needs simplifying to survive translation into tesserae, you hear it from the mosaicist, not from a sales desk.</li>"
+   "<li><b>Accountability is unambiguous.</b> There is no third party to pass a defect to. Material, cutting and packing are all ours.</li></ul>",
+   '<div class="callout"><p><b>Why this matters for the trade specifically:</b> when you quote a client, your margin is fixed at the moment you commit a price. A supplier who cannot tell you what a design actually costs to make is a supplier who costs you money on the second order, not the first.</p></div>')
+  + sec_bg("What we can take on",
+   "<table><tr><th>Capability</th><th>Detail</th></tr>"
+   "<tr><td>Production base</td><td>Foshan, Guangdong &mdash; 14+ years in mosaic production under Foshan E-Tile Building Material Co., Ltd.</td></tr>"
+   "<tr><td>Materials</td><td>Vitreous glass, smalti, gold and silver leaf glass, mother of pearl, marble and natural stone.</td></tr>"
+   "<tr><td>Work types</td><td>Bespoke handcut murals, feature walls, roundels and medallions, floor mosaics, pool and wet-area mosaics, repeat motif schemes for long runs.</td></tr>"
+   "<tr><td>Size range</td><td>From a small roundel to multi-panel atrium murals. Section sizes are set to your access route, not ours.</td></tr>"
+   "<tr><td>Packaging</td><td>Flat, crated, edge protected, sections numbered and matched to a setting-out drawing.</td></tr>"
+   "<tr><td>Export</td><td>Delivered to 30+ countries. FOB, CIF or delivered terms. Commercial documentation prepared for your forwarder.</td></tr>"
+   "<tr><td>Lead time</td><td>Typically 4&ndash;7 weeks from approved proof to shipment. Longer for schemes requiring sample-board sign-off.</td></tr></table>",
+   "<h2>Who we supply</h2>",
+   "<ul>"
+   "<li><b>Importers and distributors</b> &mdash; stocking or project-based supply, with a documented palette that reproduces on repeat orders.</li>"
+   "<li><b>Interior design studios and architects</b> &mdash; specification-stage support, physical material samples, and a fixed quotation against your FF&amp;E schedule.</li>"
+   "<li><b>FF&amp;E contractors and procurement agents</b> &mdash; dated production programmes tied to a handover date, and documentation a site team can file.</li>"
+   "<li><b>Hotel and resort developers</b> &mdash; lobby and atrium murals, pool and spa mosaics at contract scale.</li>"
+   "<li><b>Retailers and galleries</b> &mdash; curated collections and private-label ranges.</li></ul>")
+  + sec_bg("Trade terms, private label and OEM",
+   "<h2>Private label and OEM</h2>",
+   "<p>We produce under the buyer&rsquo;s own brand where required. Your label, your packaging, your documentation &mdash; we remain the unnamed manufacturer. Design files stay yours; we do not re-offer a customer&rsquo;s bespoke design to anyone else.</p>",
+   "<h2>Samples before commitment</h2>",
+   "<p>For trade and contract work we supply physical sample boards of the actual tesserae and palette for sign-off. Approving real glass rather than a screen image is the single cheapest way to avoid a colour dispute on a finished wall.</p>",
+   "<h2>Quality control and the documentary trail</h2>",
+   "<p>Each mural is photographed at the proof stage, during cutting and setting, and after sectioning. The setting-out drawing, section map and adhesive specification ship with the goods. For a distributor, that pack is also what lets you answer your own customer&rsquo;s questions without coming back to us.</p>",
+   "<h2>Enquiries</h2>",
+   "<p>Send your specification, target quantity, required delivery date and destination port. You will get a quotation with a production programme, not an estimate. Email <a href=\"mailto:tinafs618@gmail.com\">tinafs618@gmail.com</a> or message us on <a href=\"https://wa.me/8613827780690\" target=\"_blank\" rel=\"noopener\">WhatsApp</a>.</p>")
+  + rel_section("Related", [
+      ("/handcut-mosaic-murals/", "Handcut Murals", "Materials and formats"),
+      ("/mosaic-mural-cost/", "Cost Drivers", "How pricing is built"),
+      ("/hotel-mosaic-art/", "Hotel &amp; Hospitality", "Contract-scale projects"),
+      ("/about/", "About the Factory", "History and capability"),
+    ])
+  + faq_section("Trade and wholesale questions", [
+    ("Is there a minimum order for trade buyers?",
+     "No formal minimum. In practice the economics favour pieces from roughly one metre across, and repeat motif schemes for long runs are considerably more efficient per square metre than one-off compositions. Tell us the programme and we will price it properly."),
+    ("Do you manufacture under our own brand?",
+     "Yes. Private label and OEM production is routine for us. We ship with your branding and documentation and do not re-offer your bespoke designs to other buyers."),
+    ("Can we get physical samples before placing an order?",
+     "Yes &mdash; material and palette sample boards for designer or client sign-off. For bespoke designs we also supply the proof rendering before any cutting begins."),
+    ("What are your payment and shipping terms?",
+     "Typically a deposit to start production and the balance before shipment, with milestone payments on larger programmes. We quote FOB, CIF or delivered, in USD, EUR or RMB, fixed at quotation so exchange-rate movement does not change your cost."),
+    ("Can you handle a multi-property rollout with a consistent palette?",
+     "Yes. Once a palette is approved we document it and can reproduce it for later phases or sister properties. Glass colour is inherent to the material rather than a surface coating, so a re-order years later will still match."),
+  ]),
+ ),
+ schema_extra=[SERVICE_SCHEMA("Mosaic Mural Manufacturing (Factory Direct)", "Handcut mosaic murals manufactured in Foshan for importers, distributors, design studios and FF&E contractors, with private label and OEM production.",
+   DOMAIN + "/mosaic-mural-manufacturer/", DOMAIN + "/images/artmurals/am_08.jpg")],
+))
+
 PAGES.append(dict(
  slug="mosaic-mural-cost",
  title="What a Handcut Mosaic Mural Costs &mdash; Price Drivers Explained | Art Mosaic Factory",
@@ -1286,6 +1350,7 @@ PRIO = {"": "1.0", "handcut-mosaic-murals": "0.9", "custom-mosaic-wall-art": "0.
         "mosaic-bathroom-wall": "0.9", "hotel-mosaic-art": "0.9", "pool-mosaic-tiles": "0.9",
         "mosaic-murals": "0.8", "gallery": "0.8", "mosaic-mural-cost": "0.8",
         "how-handcut-mosaic-murals-are-made": "0.7", "mosaic-installation-guide": "0.7",
+        "mosaic-mural-manufacturer": "0.9",
         "faq": "0.7", "about": "0.6", "contact": "0.8"}
 FREQ = {"": "weekly", "gallery": "weekly", "mosaic-murals": "weekly"}
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
