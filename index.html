@@ -250,6 +250,69 @@ a{color:inherit;text-decoration:none}
 }
 .artmurals{background:#fff;border-top:1px solid var(--line)}
 .nav-lang{border:1px solid rgba(255,255,255,.35);border-radius:6px;padding:6px 11px!important;font-size:13px!important}
+
+/* --- subpage components --- */
+a.gal-card{display:block}
+.hero-bg{background:url('/images/hero.jpg') center/cover no-repeat;
+  background-image:image-set(url('/images/webp/hero-900.webp') 1x,url('/images/webp/hero-1600.webp') 2x);
+  background-image:image-set(url('/images/webp/hero-900.avif') type('image/avif') 1x,url('/images/webp/hero-900.webp') 1x,url('/images/webp/hero-1600.webp') 2x)}
+.cta-bg{background:url('/images/backsplash/bs_02_peacock.jpg') center/cover no-repeat}
+.page-hero{position:relative;background:linear-gradient(150deg,#0b1f3a 0%,#0e2a4f 55%,#12345f 100%);color:#fff;padding:132px 0 58px}
+.page-hero::after{content:"";position:absolute;inset:0;background:radial-gradient(760px 340px at 88% 0%,rgba(201,162,39,.13),transparent 62%);pointer-events:none}
+.page-hero .container{position:relative;z-index:2}
+.crumbs{font-size:12.5px;letter-spacing:.4px;color:rgba(255,255,255,.62);margin-bottom:16px}
+.crumbs a{color:rgba(255,255,255,.62)}
+.crumbs a:hover{color:var(--gold-2)}
+.crumbs span{margin:0 8px;opacity:.5}
+.page-hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,4.4vw,48px);line-height:1.14;letter-spacing:-.4px;margin-bottom:16px;max-width:900px}
+.page-hero .lede{font-size:clamp(15.5px,1.7vw,18px);color:rgba(255,255,255,.86);max-width:760px}
+.page-hero .hero-ctas{margin-top:28px}
+.prose{max-width:850px}
+.prose h2{font-family:var(--serif);font-size:clamp(24px,3vw,32px);line-height:1.2;color:var(--navy);margin:44px 0 16px}
+.prose h2:first-child{margin-top:0}
+.prose h3{font-size:18px;font-weight:700;color:var(--navy);margin:28px 0 10px}
+.prose p{color:#33415a;font-size:16px;margin-bottom:16px}
+.prose ul,.prose ol{margin:0 0 20px 22px}
+.prose li{color:#33415a;font-size:15.5px;margin-bottom:9px}
+.prose a{color:#8a6d1a;font-weight:600;border-bottom:1px solid rgba(201,162,39,.45)}
+.prose a:hover{border-bottom-color:var(--gold)}
+.prose .callout{background:var(--bg);border-left:3px solid var(--gold);border-radius:0 12px 12px 0;padding:20px 24px;margin:26px 0}
+.prose .callout p:last-child{margin-bottom:0}
+.prose table{width:100%;border-collapse:collapse;font-size:14.5px;margin:8px 0 24px}
+.prose th,.prose td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+.prose th{background:var(--bg);color:var(--navy);font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.6px}
+.prose td:first-child{font-weight:600;color:var(--navy);white-space:nowrap}
+.split{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+.split.rev .split-media{order:2}
+.split-media img{width:100%;border-radius:var(--radius);box-shadow:var(--shadow)}
+.split-media figcaption{font-size:13px;color:var(--muted);margin-top:10px}
+.faq-list{max-width:850px}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px 26px;margin-bottom:14px}
+.faq-item h3{font-size:16.5px;font-weight:700;color:var(--navy);margin-bottom:9px}
+.faq-item p{color:#41506b;font-size:15px;margin:0}
+.rel-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.rel-card{display:block;border-radius:var(--radius);overflow:hidden;background:var(--navy);box-shadow:var(--shadow);aspect-ratio:4/5;position:relative}
+.rel-card img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.rel-card:hover img{transform:scale(1.06)}
+.rel-card figcaption{position:absolute;inset:auto 0 0;padding:30px 13px 12px;background:linear-gradient(transparent,rgba(7,20,40,.82));color:#fff;font-size:12.5px;font-weight:600}
+.rel-links{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.rel-links a{display:block;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:18px 20px;font-weight:600;color:var(--navy);font-size:15px;transition:.2s}
+.rel-links a:hover{border-color:var(--gold);transform:translateY(-2px)}
+.rel-links span{display:block;font-weight:400;font-size:13px;color:var(--muted);margin-top:5px}
+.footer-grid-4{grid-template-columns:1.7fr 1fr 1fr 1fr}
+@media(max-width:960px){
+  .split{grid-template-columns:1fr;gap:26px}
+  .split.rev .split-media{order:0}
+  .rel-grid{grid-template-columns:repeat(2,1fr)}
+  .rel-links{grid-template-columns:1fr}
+  .footer-grid-4{grid-template-columns:1fr 1fr}
+  .page-hero{padding:112px 0 46px}
+}
+@media(max-width:640px){
+  .footer-grid-4{grid-template-columns:1fr}
+  .prose table{font-size:13px}
+  .prose th,.prose td{padding:9px 8px}
+}
 </style>
 </head>
 <body>
@@ -263,14 +326,15 @@ a{color:inherit;text-decoration:none}
     <button class="nav-toggle" aria-label="Menu">☰</button>
     <nav>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#artmurals">Art Murals</a></li>
+        <li><a href="/gallery/">Gallery</a></li>
+        <li><a href="/mosaic-murals/">Art Murals</a></li>
         <li><a href="#craft">Craft</a></li>
-        <li><a href="#makingof">Making of</a></li>
+        <li><a href="/how-handcut-mosaic-murals-are-made/">Making of</a></li>
+        <li><a href="/mosaic-mural-cost/">Cost</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#process">Process</a></li>
-        <li><a class="nav-cta" href="#quote">Commission a Mural</a></li>
-        <li><a class="nav-lang" href="zh/" hreflang="zh-CN" lang="zh-CN">中文</a></li>
+        <li><a class="nav-cta" href="/contact/">Commission a Mural</a></li>
+        <li><a class="nav-lang" href="/zh/" hreflang="zh-CN" lang="zh-CN">中文</a></li>
       </ul>
     </nav>
   </div>
@@ -493,6 +557,21 @@ a{color:inherit;text-decoration:none}
     </form>
   </div>
 </section>
+
+<section class="section" style="background:var(--bg)"><div class="container"><div class="section-head"><div class="kicker">Explore</div><h2>Mosaic Murals, Made to Order</h2><p>Everything we make, and everything you need to know before commissioning it.</p></div><div class="rel-links" style="grid-template-columns:repeat(3,1fr)">
+        <a href="/handcut-mosaic-murals/">Handcut Mosaic Murals<span>Every tessere cut and set by hand</span></a>
+        <a href="/custom-mosaic-wall-art/">Custom Mosaic Wall Art<span>Made to your exact wall size</span></a>
+        <a href="/mosaic-from-photo/">Mosaic From Your Photo<span>Portraits, pets, paintings, logos</span></a>
+        <a href="/mosaic-feature-wall/">Mosaic Feature Walls<span>Living rooms, stairwells, lobbies</span></a>
+        <a href="/mosaic-backsplash/">Kitchen Backsplashes<span>Heat-proof, grease-proof, handmade</span></a>
+        <a href="/mosaic-bathroom-wall/">Bathroom Mosaics<span>Wet-room artwork that lasts</span></a>
+        <a href="/hotel-mosaic-art/">Hotel &amp; Hospitality<span>Contract-grade FF&amp;E murals</span></a>
+        <a href="/pool-mosaic-tiles/">Pool &amp; Spa Mosaics<span>Frost-proof, chlorine-proof</span></a>
+        <a href="/mosaic-mural-cost/">What It Costs<span>How the price is actually built</span></a>
+        <a href="/how-handcut-mosaic-murals-are-made/">How They Are Made<span>Six stages, start to finish</span></a>
+        <a href="/faq/">Questions &amp; Answers<span>Cost, lead times, shipping, care</span></a>
+        <a href="/gallery/">Full Gallery<span>36 handcut pieces</span></a>
+</div></div></section>
 
 <footer class="footer">
   <div class="container">

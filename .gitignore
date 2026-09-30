@@ -4,3 +4,14 @@ deploy.py
 reports/*.png
 reports/*.json
 images/artmurals/manifest.json
+
+# ⚠️ 本地工具：含 Cloudflare/域名 API 凭证，本仓库是 PUBLIC，禁止入库
+cf_*.py
+check_cname.py
+set_cname.py
+tools/indexnow_key.txt
+__pycache__/
+*.pyc
+
+# 站外业务文件：与站点无关，不入公开仓库
+letter/

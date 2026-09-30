@@ -3,252 +3,516 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.artmosaicfactory.com/</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_01.jpg</image:loc>
-      <image:title>Blue and white floral bird handcut mosaic mural</image:title>
-      <image:caption>Blue and white floral bird handcut mosaic mural — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_02.jpg</image:loc>
-      <image:title>European canal landscape handcut mosaic mural</image:title>
-      <image:caption>European canal landscape handcut mosaic mural — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
+      <image:caption>Blue and white floral bird handcut mosaic mural</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_03.jpg</image:loc>
-      <image:title>Grey crowned cranes and botanical trees mosaic mural in a luxury living room</image:title>
-      <image:caption>Grey crowned cranes and botanical trees mosaic mural in a luxury living room — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
+      <image:caption>Grey crowned cranes and botanical trees mosaic mural</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_04.jpg</image:loc>
-      <image:title>White blossom with gold core handcut mosaic mural</image:title>
-      <image:caption>White blossom with gold core handcut mosaic mural — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
+      <image:caption>White blossom with gold core handcut mosaic mural</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_05.jpg</image:loc>
-      <image:title>Ocean wave glass mosaic wall mural in blue turquoise and gold</image:title>
-      <image:caption>Ocean wave glass mosaic wall mural in blue turquoise and gold — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
+      <image:caption>Ocean wave glass mosaic wall mural in blue turquoise and gold</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_06.jpg</image:loc>
-      <image:title>Mosaic artist hand-cutting gold glass tesserae</image:title>
-      <image:caption>Mosaic artist hand-cutting gold glass tesserae — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_07.jpg</image:loc>
-      <image:title>Chinoiserie mosaic mural of cockatoos on blossoming branches</image:title>
-      <image:caption>Chinoiserie mosaic mural of cockatoos on blossoming branches — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
+      <image:caption>Mosaic artist hand-cutting gold glass tesserae</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_08.jpg</image:loc>
-      <image:title>Gold and cream glass mosaic wall of bamboo leaves</image:title>
-      <image:caption>Gold and cream glass mosaic wall of bamboo leaves — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_09.jpg</image:loc>
-      <image:title>Chinoiserie mosaic panel of a flowering blossom tree with birds</image:title>
-      <image:caption>Chinoiserie mosaic panel of a flowering blossom tree with birds — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_10.jpg</image:loc>
-      <image:title>Oversized white daisy mosaic feature wall</image:title>
-      <image:caption>Oversized white daisy mosaic feature wall — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_11.jpg</image:loc>
-      <image:title>White magnolia blossom mosaic mural on black background</image:title>
-      <image:caption>White magnolia blossom mosaic mural on black background — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_12.jpg</image:loc>
-      <image:title>Peacock mosaic wall art in blue teal and gold</image:title>
-      <image:caption>Peacock mosaic wall art in blue teal and gold — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_14.jpg</image:loc>
-      <image:title>Tropical botanical glass mosaic mural with parrots and jungle leaves</image:title>
-      <image:caption>Tropical botanical glass mosaic mural with parrots and jungle leaves — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_15.jpg</image:loc>
-      <image:title>Art Deco black and gold mosaic mural of a white leopard</image:title>
-      <image:caption>Art Deco black and gold mosaic mural of a white leopard — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_16.jpg</image:loc>
-      <image:title>Mosaic mural of two white swans gliding on a forest lake</image:title>
-      <image:caption>Mosaic mural of two white swans gliding on a forest lake — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
+      <image:caption>Gold and cream glass mosaic wall of bamboo leaves</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_17.jpg</image:loc>
-      <image:title>Tropical flamingo mosaic meeting room feature wall</image:title>
-      <image:caption>Tropical flamingo mosaic meeting room feature wall — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/gallery/handcut_18.jpg</image:loc>
-      <image:title>Botanical tropical foliage sunlit hallway mosaic</image:title>
-      <image:caption>Botanical tropical foliage sunlit hallway mosaic — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/backsplash/bs_01_tropical.jpg</image:loc>
-      <image:title>Tropical leaves mosaic feature wall</image:title>
-      <image:caption>Tropical leaves mosaic feature wall — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/backsplash/bs_02_peacock.jpg</image:loc>
-      <image:title>White peacock and magnolia mosaic wall</image:title>
-      <image:caption>White peacock and magnolia mosaic wall — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/backsplash/bs_03_lotus.jpg</image:loc>
-      <image:title>Lotus pond and birds mosaic mural</image:title>
-      <image:caption>Lotus pond and birds mosaic mural — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/backsplash/bs_04_rose.jpg</image:loc>
-      <image:title>Classic roses mosaic backsplash</image:title>
-      <image:caption>Classic roses mosaic backsplash — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/backsplash/bs_05_leopard.jpg</image:loc>
-      <image:title>Leopard among flowers mosaic art</image:title>
-      <image:caption>Leopard among flowers mosaic art — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/backsplash/bs_06_phoenix.jpg</image:loc>
-      <image:title>Phoenix mosaic feature wall</image:title>
-      <image:caption>Phoenix mosaic feature wall — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/backsplash/bs_07_artnouveau.jpg</image:loc>
-      <image:title>Art nouveau mosaic powder room</image:title>
-      <image:caption>Art nouveau mosaic powder room — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/backsplash/bs_08_mothereofpearl.jpg</image:loc>
-      <image:title>Mother of pearl botanical mosaic</image:title>
-      <image:caption>Mother of pearl botanical mosaic — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/backsplash/bs_09_scaleblue.jpg</image:loc>
-      <image:title>Scale pattern blue mosaic bathtub wall</image:title>
-      <image:caption>Scale pattern blue mosaic bathtub wall — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/backsplash/bs_10_whitearc.jpg</image:loc>
-      <image:title>White blossom arch mosaic wall</image:title>
-      <image:caption>White blossom arch mosaic wall — handcrafted mosaic art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_01.jpg</image:loc>
-      <image:title>Byzantine Icon Mosaic</image:title>
-      <image:caption>Byzantine Icon Mosaic — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_02.jpg</image:loc>
-      <image:title>Koi Fish Mural</image:title>
-      <image:caption>Koi Fish Mural — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_03.jpg</image:loc>
-      <image:title>Blue Floral Bathroom Wall</image:title>
-      <image:caption>Blue Floral Bathroom Wall — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_04.jpg</image:loc>
-      <image:title>Floral Bird Roundel</image:title>
-      <image:caption>Floral Bird Roundel — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_05.jpg</image:loc>
-      <image:title>Leopard &amp;amp; Peonies</image:title>
-      <image:caption>Leopard and Peonies — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_06.jpg</image:loc>
-      <image:title>Sacred Heart Panel</image:title>
-      <image:caption>Sacred Heart Panel — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_07.jpg</image:loc>
-      <image:title>Butterfly Field</image:title>
-      <image:caption>Butterfly Field — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_08.jpg</image:loc>
-      <image:title>Phoenix in the Grand Salon</image:title>
-      <image:caption>Phoenix in the Grand Salon — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_09.jpg</image:loc>
-      <image:title>Sepia Botanical Bath</image:title>
-      <image:caption>Sepia Botanical Bath — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_10.jpg</image:loc>
-      <image:title>Tropical Foliage Panel</image:title>
-      <image:caption>Tropical Foliage Panel — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_11.jpg</image:loc>
-      <image:title>Arched Blossom Mural</image:title>
-      <image:caption>Arched Blossom Mural — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_12.jpg</image:loc>
-      <image:title>Pomegranate Branch &amp;amp; Birds</image:title>
-      <image:caption>Pomegranate Branch and Birds — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_13.jpg</image:loc>
-      <image:title>Portrait Feature Wall</image:title>
-      <image:caption>Portrait Feature Wall — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_14.jpg</image:loc>
-      <image:title>Zellige Fountain Wall</image:title>
-      <image:caption>Zellige Fountain Wall — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_15.jpg</image:loc>
-      <image:title>Curved Tropical Leaf Panels</image:title>
-      <image:caption>Curved Tropical Leaf Panels — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_16.jpg</image:loc>
-      <image:title>Geometric Floor Hall</image:title>
-      <image:caption>Geometric Floor Hall — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_17.jpg</image:loc>
-      <image:title>Classical Floor Medallion</image:title>
-      <image:caption>Classical Floor Medallion — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_18.jpg</image:loc>
-      <image:title>Tropical Landscape Mural</image:title>
-      <image:caption>Tropical Landscape Mural — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_19.jpg</image:loc>
-      <image:title>White Lily Wall Panel</image:title>
-      <image:caption>White Lily Wall Panel — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_20.jpg</image:loc>
-      <image:title>Magnolia on Blue</image:title>
-      <image:caption>Magnolia on Blue — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_21.jpg</image:loc>
-      <image:title>Roosters &amp;amp; Blossoms</image:title>
-      <image:caption>Roosters and Blossoms — custom mosaic wall art by Art Mosaic Factory, Foshan.</image:caption>
+      <image:caption>Wide handcut mosaic mural panel</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://www.artmosaicfactory.com/zh/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_01.jpg</image:loc>
+      <image:caption>Byzantine Icon Mosaic</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_02.jpg</image:loc>
+      <image:caption>Koi Fish Mural</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_03.jpg</image:loc>
+      <image:caption>Blue Floral Bathroom Wall</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_04.jpg</image:loc>
+      <image:caption>Floral Bird Roundel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_05.jpg</image:loc>
+      <image:caption>Leopard &amp;amp; Peonies</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_06.jpg</image:loc>
+      <image:caption>Sacred Heart Panel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_07.jpg</image:loc>
+      <image:caption>Butterfly Field</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_08.jpg</image:loc>
+      <image:caption>Phoenix in the Grand Salon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_09.jpg</image:loc>
+      <image:caption>Sepia Botanical Bath</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_10.jpg</image:loc>
+      <image:caption>Tropical Foliage Panel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_11.jpg</image:loc>
+      <image:caption>Arched Blossom Mural</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_12.jpg</image:loc>
+      <image:caption>Pomegranate Branch &amp;amp; Birds</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_13.jpg</image:loc>
+      <image:caption>Portrait Feature Wall</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_14.jpg</image:loc>
+      <image:caption>Zellige Fountain Wall</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_15.jpg</image:loc>
+      <image:caption>Curved Tropical Leaf Panels</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_16.jpg</image:loc>
+      <image:caption>Geometric Floor Hall</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_17.jpg</image:loc>
+      <image:caption>Classical Floor Medallion</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_18.jpg</image:loc>
+      <image:caption>Tropical Landscape Mural</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_19.jpg</image:loc>
+      <image:caption>White Lily Wall Panel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_20.jpg</image:loc>
+      <image:caption>Magnolia on Blue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_21.jpg</image:loc>
+      <image:caption>Roosters &amp;amp; Blossoms</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/handcut-mosaic-murals/</loc>
+    <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/custom-mosaic-wall-art/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-from-photo/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-feature-wall/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-backsplash/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-bathroom-wall/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/hotel-mosaic-art/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/pool-mosaic-tiles/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-mural-cost/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/how-handcut-mosaic-murals-are-made/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-installation-guide/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/faq/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/about/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/contact/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/gallery/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_01.jpg</image:loc>
+      <image:caption>Byzantine Icon Mosaic</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_02.jpg</image:loc>
+      <image:caption>Koi Fish Mural</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_03.jpg</image:loc>
+      <image:caption>Blue Floral Bathroom Wall</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_04.jpg</image:loc>
+      <image:caption>Floral Bird Roundel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_05.jpg</image:loc>
+      <image:caption>Leopard &amp;amp; Peonies</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_06.jpg</image:loc>
+      <image:caption>Sacred Heart Panel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_07.jpg</image:loc>
+      <image:caption>Butterfly Field</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_08.jpg</image:loc>
+      <image:caption>Phoenix in the Grand Salon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_09.jpg</image:loc>
+      <image:caption>Sepia Botanical Bath</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_10.jpg</image:loc>
+      <image:caption>Tropical Foliage Panel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_11.jpg</image:loc>
+      <image:caption>Arched Blossom Mural</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_12.jpg</image:loc>
+      <image:caption>Pomegranate Branch &amp;amp; Birds</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_13.jpg</image:loc>
+      <image:caption>Portrait Feature Wall</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_14.jpg</image:loc>
+      <image:caption>Zellige Fountain Wall</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_15.jpg</image:loc>
+      <image:caption>Curved Tropical Leaf Panels</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_16.jpg</image:loc>
+      <image:caption>Geometric Floor Hall</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_17.jpg</image:loc>
+      <image:caption>Classical Floor Medallion</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_18.jpg</image:loc>
+      <image:caption>Tropical Landscape Mural</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_19.jpg</image:loc>
+      <image:caption>White Lily Wall Panel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_20.jpg</image:loc>
+      <image:caption>Magnolia on Blue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_21.jpg</image:loc>
+      <image:caption>Roosters &amp;amp; Blossoms</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/byzantine-icon/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_01.jpg</image:loc>
+      <image:caption>Byzantine Icon Mosaic</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/koi-dining/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_02.jpg</image:loc>
+      <image:caption>Koi Fish Mural</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/blue-floral-bath/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_03.jpg</image:loc>
+      <image:caption>Blue Floral Bathroom Wall</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/floral-bird-roundel/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_04.jpg</image:loc>
+      <image:caption>Floral Bird Roundel</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/leopard-peonies/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_05.jpg</image:loc>
+      <image:caption>Leopard &amp;amp; Peonies</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/sacred-heart/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_06.jpg</image:loc>
+      <image:caption>Sacred Heart Panel</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/butterfly-field/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_07.jpg</image:loc>
+      <image:caption>Butterfly Field</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/phoenix-grand-salon/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_08.jpg</image:loc>
+      <image:caption>Phoenix in the Grand Salon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/sepia-botanical-bath/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_09.jpg</image:loc>
+      <image:caption>Sepia Botanical Bath</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/tropical-foliage/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_10.jpg</image:loc>
+      <image:caption>Tropical Foliage Panel</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/arched-blossom/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_11.jpg</image:loc>
+      <image:caption>Arched Blossom Mural</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/pomegranate-birds/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_12.jpg</image:loc>
+      <image:caption>Pomegranate Branch &amp;amp; Birds</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/portrait-feature-wall/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_13.jpg</image:loc>
+      <image:caption>Portrait Feature Wall</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/zellige-fountain/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_14.jpg</image:loc>
+      <image:caption>Zellige Fountain Wall</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/curved-tropical-panels/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_15.jpg</image:loc>
+      <image:caption>Curved Tropical Leaf Panels</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/geometric-floor-hall/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_16.jpg</image:loc>
+      <image:caption>Geometric Floor Hall</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/classical-medallion/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_17.jpg</image:loc>
+      <image:caption>Classical Floor Medallion</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/tropical-landscape/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_18.jpg</image:loc>
+      <image:caption>Tropical Landscape Mural</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/white-lily-panel/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_19.jpg</image:loc>
+      <image:caption>White Lily Wall Panel</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/magnolia-blue/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_20.jpg</image:loc>
+      <image:caption>Magnolia on Blue</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.artmosaicfactory.com/mosaic-murals/roosters-blossoms/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.artmosaicfactory.com/images/artmurals/am_21.jpg</image:loc>
+      <image:caption>Roosters &amp;amp; Blossoms</image:caption>
+    </image:image>
   </url>
 </urlset>
