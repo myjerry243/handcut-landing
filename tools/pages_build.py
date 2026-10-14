@@ -278,6 +278,7 @@ def page(slug, title, desc, h1, lede, body, schema_extra=None, hero_cta=True):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="p:domain_verify" content="3cd956f6efb1a4d6f01a5479ce662f10"/>
 <title>%s</title>
 <meta name="description" content="%s">
 <meta name="robots" content="index, follow, max-image-preview:large">
